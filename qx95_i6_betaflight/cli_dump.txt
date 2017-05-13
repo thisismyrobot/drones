@@ -221,8 +221,8 @@ mode_color 6 9 0
 mode_color 6 10 0
 mode_color 7 0 3
 aux 0 0 0 1900 2100
-aux 1 1 1 900 1200
-aux 2 2 1 1300 1900
+aux 1 2 1 900 1900
+aux 2 15 1 1100 2100
 aux 3 15 0 900 1900
 aux 4 0 0 900 900
 aux 5 0 0 900 900

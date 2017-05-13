@@ -169,19 +169,19 @@
 					}
 				},
 				{
-					"id": 1,
-					"auxChannelIndex": 1,
-					"range": {
-						"start": 900,
-						"end": 1200
-					}
-				},
-				{
 					"id": 2,
 					"auxChannelIndex": 1,
 					"range": {
-						"start": 1300,
+						"start": 900,
 						"end": 1900
+					}
+				},
+				{
+					"id": 15,
+					"auxChannelIndex": 1,
+					"range": {
+						"start": 1100,
+						"end": 2100
 					}
 				},
 				{
@@ -646,19 +646,19 @@
 					}
 				},
 				{
-					"id": 1,
-					"auxChannelIndex": 1,
-					"range": {
-						"start": 900,
-						"end": 1200
-					}
-				},
-				{
 					"id": 2,
 					"auxChannelIndex": 1,
 					"range": {
-						"start": 1300,
+						"start": 900,
 						"end": 1900
+					}
+				},
+				{
+					"id": 15,
+					"auxChannelIndex": 1,
+					"range": {
+						"start": 1100,
+						"end": 2100
 					}
 				},
 				{
@@ -1123,19 +1123,19 @@
 					}
 				},
 				{
-					"id": 1,
-					"auxChannelIndex": 1,
-					"range": {
-						"start": 900,
-						"end": 1200
-					}
-				},
-				{
 					"id": 2,
 					"auxChannelIndex": 1,
 					"range": {
-						"start": 1300,
+						"start": 900,
 						"end": 1900
+					}
+				},
+				{
+					"id": 15,
+					"auxChannelIndex": 1,
+					"range": {
+						"start": 1100,
+						"end": 2100
 					}
 				},
 				{
