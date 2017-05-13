@@ -185,11 +185,11 @@
 					}
 				},
 				{
-					"id": 0,
+					"id": 15,
 					"auxChannelIndex": 0,
 					"range": {
 						"start": 900,
-						"end": 900
+						"end": 1900
 					}
 				},
 				{
@@ -662,11 +662,11 @@
 					}
 				},
 				{
-					"id": 0,
+					"id": 15,
 					"auxChannelIndex": 0,
 					"range": {
 						"start": 900,
-						"end": 900
+						"end": 1900
 					}
 				},
 				{
@@ -1139,11 +1139,11 @@
 					}
 				},
 				{
-					"id": 0,
+					"id": 15,
 					"auxChannelIndex": 0,
 					"range": {
 						"start": 900,
-						"end": 900
+						"end": 1900
 					}
 				},
 				{
@@ -1602,7 +1602,7 @@
 					"name": "ESC_SENSOR"
 				}
 			],
-			"_featureMask": 35075
+			"_featureMask": 100611
 		},
 		"board_align_roll": 0,
 		"board_align_pitch": 0,
@@ -1656,40 +1656,40 @@
 	},
 	"LED_STRIP": [
 		{
-			"y": 0,
-			"x": 0,
+			"y": 11,
+			"x": 5,
 			"functions": [
-				"c"
+				"l"
 			],
 			"color": 0,
 			"directions": [],
 			"parameters": 0
 		},
 		{
-			"y": 0,
-			"x": 0,
+			"y": 11,
+			"x": 6,
 			"functions": [
-				"c"
+				"l"
 			],
 			"color": 0,
 			"directions": [],
 			"parameters": 0
 		},
 		{
-			"y": 0,
-			"x": 0,
+			"y": 11,
+			"x": 7,
 			"functions": [
-				"c"
+				"l"
 			],
 			"color": 0,
 			"directions": [],
 			"parameters": 0
 		},
 		{
-			"y": 0,
-			"x": 0,
+			"y": 11,
+			"x": 8,
 			"functions": [
-				"c"
+				"l"
 			],
 			"color": 0,
 			"directions": [],
