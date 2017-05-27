@@ -22,18 +22,16 @@ set failsafe_throttle_low_delay = 10
 set baro_cf_vel =  0.985
 profile 0
 
-rateprofile 1
+rateprofile 0
 rateprofile 0
 
-set rc_rate = 33
-set rc_rate_yaw = 33
 rateprofile 1
 
 set rc_rate = 33
 set rc_rate_yaw = 33
 rateprofile 2
 
-rateprofile 1
+rateprofile 0
 profile 1
 
 rateprofile 0
