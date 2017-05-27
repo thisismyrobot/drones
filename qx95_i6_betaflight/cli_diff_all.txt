@@ -1,0 +1,58 @@
+# Betaflight / SPRACINGF3EVO 3.1.7 Apr  3 2017 / 22:28:08 (e1c4b5c)
+defaults
+
+feature -TELEMETRY
+feature -CURRENT_METER
+feature -RSSI_ADC
+feature -BLACKBOX
+feature -TRANSPONDER
+feature -SDCARD
+feature LED_STRIP
+led 0 5,11::L:0
+led 1 6,11::L:0
+led 2 7,11::L:0
+led 3 8,11::L:0
+aux 0 0 0 1900 2100
+aux 1 2 1 900 1100
+aux 2 15 1 1100 2100
+aux 3 15 0 900 1900
+adjrange 0 0 1 900 2100 12 1
+set failsafe_throttle = 1300
+set failsafe_throttle_low_delay = 10
+set baro_cf_vel =  0.985
+profile 0
+
+rateprofile 1
+rateprofile 0
+
+set rc_rate = 33
+set rc_rate_yaw = 33
+rateprofile 1
+
+set rc_rate = 33
+set rc_rate_yaw = 33
+rateprofile 2
+
+rateprofile 1
+profile 1
+
+rateprofile 0
+rateprofile 0
+
+rateprofile 1
+
+rateprofile 2
+
+rateprofile 0
+profile 2
+
+rateprofile 0
+rateprofile 0
+
+rateprofile 1
+
+rateprofile 2
+
+rateprofile 0
+profile 0
+save
