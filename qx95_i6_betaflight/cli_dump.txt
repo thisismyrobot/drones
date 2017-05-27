@@ -98,8 +98,6 @@ feature -FEATURE_ANTI_GRAVITY
 feature RX_PPM
 feature VBAT
 feature FAILSAFE
-feature CURRENT_METER
-feature RSSI_ADC
 feature LED_STRIP
 beeper GYRO_CALIBRATED
 beeper RX_LOST
@@ -221,7 +219,7 @@ mode_color 6 9 0
 mode_color 6 10 0
 mode_color 7 0 3
 aux 0 0 0 1900 2100
-aux 1 2 1 900 1900
+aux 1 2 1 900 1100
 aux 2 15 1 1100 2100
 aux 3 15 0 900 1900
 aux 4 0 0 900 900
@@ -240,7 +238,7 @@ aux 16 0 0 900 900
 aux 17 0 0 900 900
 aux 18 0 0 900 900
 aux 19 0 0 900 900
-adjrange 0 0 0 900 900 0 0
+adjrange 0 0 1 900 2100 12 1
 adjrange 1 0 0 900 900 0 0
 adjrange 2 0 0 900 900 0 0
 adjrange 3 0 0 900 900 0 0
@@ -466,11 +464,11 @@ set i_vel = 55
 set d_vel = 75
 set level_sensitivity = 55
 set level_limit = 55
-rateprofile 0
-rateprofile 0
+rateprofile 1
+rateprofile 1
 
-set rc_rate = 100
-set rc_rate_yaw = 100
+set rc_rate = 33
+set rc_rate_yaw = 33
 set rc_expo = 0
 set rc_yaw_expo = 0
 set thr_mid = 50
