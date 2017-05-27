@@ -2,4 +2,4 @@
 
 CLI dumps currently done with:
 
-    diff all
+    diff all
