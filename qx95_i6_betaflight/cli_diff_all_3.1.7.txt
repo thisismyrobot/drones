@@ -16,6 +16,7 @@ aux 1 2 1 900 1100
 aux 2 15 1 1100 2100
 aux 3 15 0 900 1900
 adjrange 0 0 1 900 2100 12 1
+rxfail 5 s 1000
 set failsafe_throttle = 1300
 set failsafe_throttle_low_delay = 10
 set baro_cf_vel =  0.985
