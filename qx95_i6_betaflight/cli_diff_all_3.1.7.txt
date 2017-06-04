@@ -7,10 +7,10 @@ feature -BLACKBOX
 feature -TRANSPONDER
 feature -SDCARD
 feature LED_STRIP
-led 0 5,11::LW:0
-led 1 6,11::LW:0
-led 2 7,11::LW:0
-led 3 8,11::LW:0
+led 0 5,11::L:0
+led 1 6,11::L:0
+led 2 7,11::L:0
+led 3 8,11::CW:0
 aux 0 0 0 1900 2100
 aux 1 2 1 900 1100
 aux 2 15 1 1100 2100
