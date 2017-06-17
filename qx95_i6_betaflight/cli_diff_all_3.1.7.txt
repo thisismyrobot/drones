@@ -24,10 +24,12 @@ rateprofile 0
 
 rateprofile 1
 
-set rc_rate = 33
-set rc_rate_yaw = 33
+set rc_expo = 50
+set rc_yaw_expo = 50
 rateprofile 2
 
+set rc_expo = 25
+set rc_yaw_expo = 25
 rateprofile 0
 profile 1
 
