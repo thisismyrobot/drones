@@ -19,13 +19,16 @@ adjrange 0 0 1 900 2100 12 1
 rxfail 5 s 1000
 profile 0
 
+set level_limit = 15
 rateprofile 0
 rateprofile 0
 
+set rc_expo = 100
+set rc_yaw_expo = 50
 rateprofile 1
 
 set rc_expo = 50
-set rc_yaw_expo = 50
+set rc_yaw_expo = 25
 rateprofile 2
 
 set rc_expo = 25
