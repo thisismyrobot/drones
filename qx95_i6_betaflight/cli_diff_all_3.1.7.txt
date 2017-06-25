@@ -7,6 +7,21 @@ feature -BLACKBOX
 feature -TRANSPONDER
 feature -SDCARD
 feature LED_STRIP
+beeper -GYRO_CALIBRATED
+beeper -RX_LOST
+beeper -RX_LOST_LANDING
+beeper -DISARMING
+beeper -ARMING
+beeper -ARMING_GPS_FIX
+beeper -BAT_LOW
+beeper -GPS_STATUS
+beeper -RX_SET
+beeper -ACC_CALIBRATION
+beeper -ACC_CALIBRATION_FAIL
+beeper -READY_BEEP
+beeper -MULTI_BEEPS
+beeper -DISARM_REPEAT
+beeper -ARMED
 led 0 5,11::L:0
 led 1 6,11::L:0
 led 2 7,11::L:0
