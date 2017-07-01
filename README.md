@@ -14,7 +14,7 @@ SP Racing F3 EVO flight controller + a Flysky receiver, all on the same board:
 
 ![SP Racing F3 EVO flight controller](QX95/board/0d7c74b.jpg?raw=true "SP Racing F3 EVO flight controller") 
 
-This board has no Flysky failsafe (PPM output freeze on TX drop-out) so I
+This board has no Flysky failsafe (PPM output freezes on TX drop-out) so I
 wrote a [small patch against Betaflight 3.1.7](https://github.com/betaflight/betaflight/compare/v3.1.7...thisismyrobot:ppm_freeze_3.1.7_patch#diff-5a9bf24388376542cd4115a5141145e7)
 to report loss of signal after 3 seconds of no change in input.
 
