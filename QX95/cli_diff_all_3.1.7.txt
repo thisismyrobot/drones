@@ -6,7 +6,6 @@ feature -RSSI_ADC
 feature -BLACKBOX
 feature -TRANSPONDER
 feature -SDCARD
-feature LED_STRIP
 beeper -GYRO_CALIBRATED
 beeper -RX_LOST
 beeper -RX_LOST_LANDING
@@ -26,15 +25,13 @@ led 0 5,11::L:0
 led 1 6,11::L:0
 led 2 7,11::L:0
 led 3 8,11::CW:0
-aux 0 0 0 1900 2100
-aux 1 1 1 900 1100
-aux 2 15 1 1100 2100
-aux 3 15 0 900 1900
-adjrange 0 0 1 900 2100 12 1
+aux 0 0 1 1200 2100
+aux 1 1 1 900 1800
+adjrange 0 0 0 900 2100 12 0
 rxfail 5 s 1000
 profile 0
 
-set level_limit = 25
+set level_limit = 15
 rateprofile 0
 rateprofile 0
 
@@ -42,12 +39,11 @@ set rc_expo = 50
 set rc_yaw_expo = 25
 rateprofile 1
 
-set rc_expo = 50
-set rc_yaw_expo = 25
+set rc_expo = 38
+set rc_yaw_expo = 13
 rateprofile 2
 
 set rc_expo = 25
-set rc_yaw_expo = 25
 rateprofile 0
 profile 1
 
