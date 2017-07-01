@@ -2,7 +2,7 @@
 
 ## QX95
 
-![QX95](qx95/pic.png?raw=true "QX95")
+![QX95](QX95/pic.png?raw=true "QX95")
 
 ## Config format
 
