@@ -27,20 +27,23 @@ led 1 6,11::L:0
 led 2 7,11::L:0
 led 3 8,11::CW:0
 aux 0 0 0 1900 2100
-aux 1 2 1 900 1100
+aux 1 1 1 900 1100
 aux 2 15 1 1100 2100
 aux 3 15 0 900 1900
 adjrange 0 0 1 900 2100 12 1
 rxfail 5 s 1000
 profile 0
 
+set level_limit = 25
 rateprofile 0
 rateprofile 0
 
+set rc_expo = 50
+set rc_yaw_expo = 25
 rateprofile 1
 
 set rc_expo = 50
-set rc_yaw_expo = 50
+set rc_yaw_expo = 25
 rateprofile 2
 
 set rc_expo = 25
