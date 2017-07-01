@@ -21,10 +21,8 @@ beeper -READY_BEEP
 beeper -MULTI_BEEPS
 beeper -DISARM_REPEAT
 beeper -ARMED
-led 0 5,11::L:0
-led 1 6,11::L:0
-led 2 7,11::L:0
-led 3 8,11::CW:0
+beeper -SYSTEM_INIT
+beeper -ON_USB
 aux 0 0 1 1200 2100
 aux 1 1 1 900 1800
 adjrange 0 0 0 900 2100 12 0
