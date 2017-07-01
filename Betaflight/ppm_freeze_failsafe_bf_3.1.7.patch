@@ -1,0 +1,73 @@
+diff --git a/src/main/drivers/rx_pwm.c b/src/main/drivers/rx_pwm.c
+index cf37e76..0136c1e 100644
+--- a/src/main/drivers/rx_pwm.c
++++ b/src/main/drivers/rx_pwm.c
+@@ -25,6 +25,7 @@
+ #include "build/build_config.h"
+ #include "build/debug.h"
+ 
++#include "common/maths.h"
+ #include "common/utils.h"
+ 
+ #include "system.h"
+@@ -77,6 +78,7 @@ typedef struct {
+ static pwmInputPort_t pwmInputPorts[PWM_INPUT_PORT_COUNT];
+ 
+ static uint16_t captures[PWM_PORTS_OR_PPM_CAPTURE_COUNT];
++static uint16_t lastCaptures[PWM_PORTS_OR_PPM_CAPTURE_COUNT];
+ 
+ #define PPM_TIMER_PERIOD 0x10000
+ #define PWM_TIMER_PERIOD 0x10000
+@@ -84,6 +86,7 @@ static uint16_t captures[PWM_PORTS_OR_PPM_CAPTURE_COUNT];
+ static uint8_t ppmFrameCount = 0;
+ static uint8_t lastPPMFrameCount = 0;
+ static uint8_t ppmCountDivisor = 1;
++static uint32_t lastPPMVarianceTime = 0;
+ 
+ typedef struct ppmDevice_s {
+     uint8_t  pulseIndex;
+@@ -99,10 +102,13 @@ typedef struct ppmDevice_s {
+ 
+     bool     tracking;
+     bool     overflowed;
++    bool     frozen;
+ } ppmDevice_t;
+ 
+ ppmDevice_t ppmDev;
+ 
++#define PPM_FREEZE_TIMEOUT_MS       3000    // milliseconds, 3 seconds worth
++#define PPM_VARIANCE_THRESHOLD_US   5       // microseconds
+ #define PPM_IN_MIN_SYNC_PULSE_US    2700    // microseconds
+ #define PPM_IN_MIN_CHANNEL_PULSE_US 750     // microseconds
+ #define PPM_IN_MAX_CHANNEL_PULSE_US 2250    // microseconds
+@@ -110,9 +116,29 @@ ppmDevice_t ppmDev;
+ #define PPM_IN_MIN_NUM_CHANNELS     4
+ #define PPM_IN_MAX_NUM_CHANNELS     PWM_PORTS_OR_PPM_CAPTURE_COUNT
+ 
++static void updateFrozenPPMFlag()
++{
++    int32_t i;
++    uint32_t currentTime = millis();
++
++    for (i = 0; i < ppmDev.numChannels; i++) {
++        if (ABS(lastCaptures[i] - captures[i]) > PPM_VARIANCE_THRESHOLD_US) {
++            ppmDev.frozen = false;
++
++            lastPPMVarianceTime = currentTime;
++            lastCaptures[i] = captures[i];
++        }
++    }
++
++    if (currentTime - lastPPMVarianceTime > PPM_FREEZE_TIMEOUT_MS) {
++        ppmDev.frozen = true;
++    }
++}
++
+ bool isPPMDataBeingReceived(void)
+ {
+-    return (ppmFrameCount != lastPPMFrameCount);
++    updateFrozenPPMFlag();
++    return !ppmDev.frozen && (ppmFrameCount != lastPPMFrameCount);
+ }
+ 
+ void resetPPMDataReceivedState(void)
