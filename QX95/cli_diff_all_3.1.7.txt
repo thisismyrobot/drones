@@ -7,8 +7,6 @@ feature -BLACKBOX
 feature -TRANSPONDER
 feature -SDCARD
 beeper -GYRO_CALIBRATED
-beeper -RX_LOST
-beeper -RX_LOST_LANDING
 beeper -DISARMING
 beeper -ARMING
 beeper -ARMING_GPS_FIX
