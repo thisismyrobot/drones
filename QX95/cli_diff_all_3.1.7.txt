@@ -24,7 +24,7 @@ beeper -ON_USB
 aux 0 0 1 1200 2100
 aux 1 1 1 900 1800
 adjrange 0 0 0 900 2100 12 0
-rxfail 5 s 1000
+rxfail 5 s 1500
 profile 0
 
 set level_limit = 15
