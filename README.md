@@ -7,6 +7,15 @@ As well as a software-failsafe I added to Betaflight
 
 ![QX95](QX95/pic.png?raw=true "QX95")
 
+## NERFrame/Pink Rocket
+
+![NERFrame](NERFrame/pic.jpg?raw=true "NERFrame")
+
+A NERF-dart based frame for the QX95 parts while my replacement QX95 frame
+shipped itself to my house.
+
+[Build plans are here if you want to build your own](http://thisismyrobot.com/nerf).
+
 ## Betaflight 3.1.7 software failsafe implementation
 
 My first (and only right now) drone is an Eachine QX95 with the a copy of a
