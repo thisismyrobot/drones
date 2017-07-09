@@ -33,9 +33,9 @@ or you can just compile
 [the branch](https://github.com/thisismyrobot/betaflight/tree/ppm_freeze_3.1.7_patch)
 in my fork :)
 
-## Config format
+## Betaflight config format
 
-CLI dumps currently done with:
+Betaflight CLI dumps currently done with:
 
     diff all
 
