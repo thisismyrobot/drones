@@ -3,9 +3,17 @@
 As well as a software-failsafe I added to Betaflight
 [3.1.7.](https://github.com/betaflight/betaflight/releases/tag/v3.1.7)
 
+## FliteTest Gremlin (TJ's frame)
+
+![TjGremlin](TjGremlin/pic.png?raw=true "TjGremlin")
+
 ## QX95
 
 ![QX95](QX95/pic.png?raw=true "QX95")
+
+## 105mm custom
+
+![105Custom](105Custom/pic.png?raw=true "105Custom")
 
 ## NERFrame/Pink Rocket
 
