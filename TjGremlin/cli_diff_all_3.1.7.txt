@@ -1,0 +1,74 @@
+# Betaflight / SPRACINGF3EVO 3.1.7 Apr  3 2017 / 22:28:08 (e1c4b5c)
+defaults
+
+feature -RX_PPM
+feature -TELEMETRY
+feature -CURRENT_METER
+feature -RSSI_ADC
+feature -BLACKBOX
+feature -TRANSPONDER
+feature -SDCARD
+feature RX_SERIAL
+beeper -GYRO_CALIBRATED
+beeper -DISARMING
+beeper -ARMING
+beeper -ARMING_GPS_FIX
+beeper -BAT_LOW
+beeper -GPS_STATUS
+beeper -RX_SET
+beeper -ACC_CALIBRATION
+beeper -ACC_CALIBRATION_FAIL
+beeper -READY_BEEP
+beeper -MULTI_BEEPS
+beeper -DISARM_REPEAT
+beeper -ARMED
+beeper -SYSTEM_INIT
+beeper -ON_USB
+serial 2 64 115200 57600 0 115200
+aux 0 0 1 1100 2100
+aux 1 28 1 1900 2100
+aux 2 4 1 1900 2100
+aux 3 1 1 1400 1600
+aux 4 13 1 900 1900
+adjrange 0 0 0 900 2100 12 0
+rxfail 5 s 1000
+set min_throttle = 1040
+set serialrx_provider = SBUS
+profile 0
+
+set level_limit = 15
+rateprofile 0
+rateprofile 0
+
+set rc_expo = 50
+set rc_yaw_expo = 25
+rateprofile 1
+
+set rc_expo = 38
+set rc_yaw_expo = 13
+rateprofile 2
+
+set rc_expo = 25
+rateprofile 0
+profile 1
+
+rateprofile 0
+rateprofile 0
+
+rateprofile 1
+
+rateprofile 2
+
+rateprofile 0
+profile 2
+
+rateprofile 0
+rateprofile 0
+
+rateprofile 1
+
+rateprofile 2
+
+rateprofile 0
+profile 0
+save
