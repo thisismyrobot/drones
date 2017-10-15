@@ -29,8 +29,9 @@ aux 0 0 1 1100 2100
 aux 1 28 1 1900 2100
 aux 2 4 1 1900 2100
 aux 3 1 1 1400 1600
+aux 4 13 1 900 1900
 adjrange 0 0 0 900 2100 12 0
-rxfail 5 s 1500
+rxfail 5 s 1000
 set min_throttle = 1040
 set serialrx_provider = SBUS
 profile 0
@@ -71,4 +72,3 @@ rateprofile 2
 rateprofile 0
 profile 0
 save
-# 
