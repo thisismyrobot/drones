@@ -1,0 +1,4804 @@
+{
+	"frames": [
+		{
+			"index": 0,
+			"values": {
+				"command": 9,
+				"values": [
+					12,
+					0,
+					0,
+					60,
+					0,
+					0,
+					0,
+					1,
+					10,
+					2
+				],
+				"specialValues": {}
+			}
+		},
+		{
+			"index": 10,
+			"values": {
+				"command": 9,
+				"values": [
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					200,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					200,
+					0
+				],
+				"specialValues": {}
+			}
+		},
+		{
+			"index": 20,
+			"values": {
+				"command": 9,
+				"values": [
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					50,
+					100,
+					0,
+					0,
+					1,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"specialValues": {}
+			}
+		},
+		{
+			"index": 30,
+			"values": {
+				"command": 9,
+				"values": [
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					1,
+					0,
+					0,
+					0
+				],
+				"specialValues": {}
+			}
+		},
+		{
+			"index": 40,
+			"values": {
+				"command": 9,
+				"values": [
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					0,
+					1,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"specialValues": {}
+			}
+		},
+		{
+			"index": 50,
+			"values": {
+				"command": 9,
+				"values": [
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					0,
+					1,
+					0,
+					0,
+					4,
+					0,
+					0,
+					0,
+					4,
+					0
+				],
+				"specialValues": {}
+			}
+		},
+		{
+			"index": 60,
+			"values": {
+				"command": 9,
+				"values": [
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					1,
+					0,
+					100,
+					100,
+					100,
+					30,
+					84,
+					73,
+					77,
+					82
+				],
+				"specialValues": {}
+			}
+		},
+		{
+			"index": 70,
+			"values": {
+				"command": 9,
+				"values": [
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"specialValues": {}
+			}
+		},
+		{
+			"index": 80,
+			"values": {
+				"command": 9,
+				"values": [
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					null,
+					150,
+					0,
+					0,
+					0,
+					0,
+					4,
+					244,
+					1,
+					88,
+					2
+				],
+				"specialValues": {}
+			}
+		}
+	],
+	"layouts": {
+		"layouts": [
+			{
+				"elements": [
+					{
+						"class": "gpsNumSettings",
+						"code": "Satindicator",
+						"enable": true,
+						"label": "Sat indicator",
+						"position": 0,
+						"value": 32
+					},
+					{
+						"class": "gpsDirectionSettings",
+						"code": "Directionto home",
+						"enable": true,
+						"label": "Direction to home",
+						"position": 1,
+						"value": 51
+					},
+					{
+						"class": "gpsDistanceSettings",
+						"code": "Distance",
+						"enable": true,
+						"label": "Distance",
+						"position": 2,
+						"value": 54
+					},
+					{
+						"class": "speedSettings",
+						"code": "Speed",
+						"enable": true,
+						"label": "Speed",
+						"position": 3,
+						"value": 183
+					},
+					{
+						"class": "eagleToHomePositionSettings",
+						"code": "Angleto home",
+						"enable": true,
+						"label": "Angle to home",
+						"position": 4,
+						"value": 144
+					},
+					{
+						"class": "gpsAltitudeSettings",
+						"code": "GPSaltitude",
+						"enable": true,
+						"label": "GPS altitude",
+						"position": 5,
+						"value": 84
+					},
+					{
+						"class": "senzorsSettings",
+						"code": "Sensor",
+						"enable": true,
+						"label": "Sensor",
+						"position": 6,
+						"value": 36
+					},
+					{
+						"class": "headingSettings",
+						"code": "Heading",
+						"enable": true,
+						"label": "Heading",
+						"position": 7,
+						"value": 114
+					},
+					{
+						"class": "compassSettings",
+						"code": "Compass",
+						"enable": true,
+						"label": "Compass",
+						"position": 8,
+						"value": 40
+					},
+					{
+						"class": "altitudeSettings",
+						"code": "Altitude",
+						"enable": true,
+						"label": "Altitude",
+						"position": 9,
+						"value": 203
+					},
+					{
+						"class": "climbRateSettings",
+						"code": "ClimbRate",
+						"enable": true,
+						"label": "Climb Rate",
+						"position": 10,
+						"value": 202
+					},
+					{
+						"class": "throttleSettings",
+						"code": "Throttle",
+						"enable": true,
+						"label": "Throttle",
+						"position": 11,
+						"value": 352
+					},
+					{
+						"class": "",
+						"code": "Unused",
+						"enable": true,
+						"label": "Unused",
+						"position": 12,
+						"value": 382
+					},
+					{
+						"class": "timerSettings",
+						"code": "Timer",
+						"enable": true,
+						"label": "Timer",
+						"position": 13,
+						"value": 382
+					},
+					{
+						"class": "armedStatusSettings",
+						"code": "ArmedStatus",
+						"enable": false,
+						"label": "Armed Status",
+						"position": 14,
+						"value": 311
+					},
+					{
+						"class": "pichAngleSettings",
+						"code": "PitchAngle",
+						"enable": false,
+						"label": "Pitch Angle",
+						"position": 15,
+						"value": 233
+					},
+					{
+						"class": "rollAngleSettings",
+						"code": "RollAngle",
+						"enable": false,
+						"label": "Roll Angle",
+						"position": 16,
+						"value": 263
+					},
+					{
+						"class": "latitudeSettings",
+						"code": "Latitude",
+						"enable": true,
+						"label": "Latitude",
+						"position": 17,
+						"value": 2
+					},
+					{
+						"class": "longtitudeSettings",
+						"code": "Longitude",
+						"enable": true,
+						"label": "Longitude",
+						"position": 18,
+						"value": 17
+					},
+					{
+						"class": "rssiSettings",
+						"code": "RSSI",
+						"enable": true,
+						"label": "RSSI",
+						"position": 19,
+						"value": 333
+					},
+					{
+						"class": "tempeatureSettings",
+						"code": "Temperature",
+						"enable": false,
+						"label": "Temperature",
+						"position": 20,
+						"value": 213
+					},
+					{
+						"class": "vBatSettings",
+						"code": "Voltage- main",
+						"enable": true,
+						"label": "Voltage - main",
+						"position": 21,
+						"value": 363
+					},
+					{
+						"class": "vBatVidSettings",
+						"code": "Voltage- video",
+						"enable": true,
+						"label": "Voltage - video",
+						"position": 22,
+						"value": 303
+					},
+					{
+						"class": "ampSettings",
+						"code": "Amps",
+						"enable": true,
+						"label": "Amps",
+						"position": 23,
+						"value": 369
+					},
+					{
+						"class": "mahSettings",
+						"code": "mAh",
+						"enable": true,
+						"label": "mAh",
+						"position": 24,
+						"value": 376
+					},
+					{
+						"class": "ahiHorizon",
+						"code": "AHI-horizon",
+						"enable": true,
+						"label": "AHI-horizon",
+						"position": 25,
+						"value": 194
+					},
+					{
+						"ahiSidebars": "ahiSidebars",
+						"class": "ahiSidebars",
+						"code": "AHI-sidebars",
+						"enable": true,
+						"label": "AHI-sidebars",
+						"position": 26,
+						"value": 187
+					},
+					{
+						"class": "ahiSidebarsIcon",
+						"code": "AHI-changeicon",
+						"enable": true,
+						"label": "AHI-change icon",
+						"position": 27,
+						"value": 187
+					},
+					{
+						"class": "ahiSidebarsHeight",
+						"code": "SidebarHeight",
+						"enable": false,
+						"label": "Sidebar Height",
+						"position": 28,
+						"value": 3
+					},
+					{
+						"code": "SidebarWidth",
+						"enable": true,
+						"label": "Sidebar Width",
+						"position": 29,
+						"value": 7
+					},
+					{
+						"class": "gymbal",
+						"code": "Gimbal",
+						"enable": true,
+						"label": "Gimbal",
+						"position": 30,
+						"value": 122
+					},
+					{
+						"class": "gpsTime",
+						"code": "GPStime",
+						"enable": true,
+						"label": "GPS time",
+						"position": 31,
+						"value": 341
+					},
+					{
+						"code": "FRSkycells",
+						"enable": true,
+						"label": "FRSky cells",
+						"position": 32,
+						"value": 232
+					},
+					{
+						"class": "mode",
+						"code": "Mode",
+						"enable": true,
+						"label": "Mode",
+						"position": 33,
+						"value": 92
+					},
+					{
+						"class": "mapMode",
+						"code": "Mapmode",
+						"enable": false,
+						"label": "Map Mode distance",
+						"position": 34,
+						"value": 46
+					},
+					{
+						"class": "mapCenter",
+						"code": "Mapcenter",
+						"enable": false,
+						"label": "Map Mode center",
+						"position": 35,
+						"value": 195
+					},
+					{
+						"class": "apStAtus",
+						"code": "APstatus",
+						"enable": false,
+						"label": "AP status",
+						"position": 36,
+						"value": 70
+					},
+					{
+						"class": "wats",
+						"code": "Watts",
+						"enable": false,
+						"label": "Watts",
+						"position": 37,
+						"value": 339
+					},
+					{
+						"code": "Glidescope",
+						"enable": true,
+						"label": "Glidescope",
+						"position": 38,
+						"value": 186
+					},
+					{
+						"class": "callsign",
+						"code": "CallSign",
+						"enable": true,
+						"label": "Call Sign",
+						"position": 39,
+						"value": 280
+					},
+					{
+						"code": "Debug",
+						"enable": true,
+						"label": "Debug",
+						"position": 40,
+						"value": 220
+					}
+				],
+				"name": "Shiki default",
+				"position": 0
+			},
+			{
+				"elements": [
+					{
+						"class": "gpsNumSettings",
+						"code": "Satindicator",
+						"enable": false,
+						"label": "Sat indicator",
+						"position": 0,
+						"value": 32
+					},
+					{
+						"class": "gpsDirectionSettings",
+						"code": "Directionto home",
+						"enable": true,
+						"label": "Direction to home",
+						"position": 1,
+						"value": 380
+					},
+					{
+						"class": "gpsDistanceSettings",
+						"code": "Distance",
+						"enable": false,
+						"label": "Distance",
+						"position": 2,
+						"value": 42
+					},
+					{
+						"class": "speedSettings",
+						"code": "Speed",
+						"enable": false,
+						"label": "Speed",
+						"position": 3,
+						"value": 33
+					},
+					{
+						"class": "eagleToHomePositionSettings",
+						"code": "Angleto home",
+						"enable": false,
+						"label": "Angle to home",
+						"position": 4,
+						"value": 144
+					},
+					{
+						"class": "gpsAltitudeSettings",
+						"code": "GPSaltitude",
+						"enable": false,
+						"label": "GPS altitude",
+						"position": 5,
+						"value": 234
+					},
+					{
+						"class": "senzorsSettings",
+						"code": "Sensor",
+						"enable": false,
+						"label": "Sensor",
+						"position": 6,
+						"value": 36
+					},
+					{
+						"class": "headingSettings",
+						"code": "Heading",
+						"enable": false,
+						"label": "Heading",
+						"position": 7,
+						"value": 234
+					},
+					{
+						"class": "compassSettings",
+						"code": "Compass",
+						"enable": false,
+						"label": "Compass",
+						"position": 8,
+						"value": 39
+					},
+					{
+						"class": "altitudeSettings",
+						"code": "Altitude",
+						"enable": false,
+						"label": "Altitude",
+						"position": 9,
+						"value": 53
+					},
+					{
+						"class": "climbRateSettings",
+						"code": "ClimbRate",
+						"enable": false,
+						"label": "Climb Rate",
+						"position": 10,
+						"value": 203
+					},
+					{
+						"class": "throttleSettings",
+						"code": "Throttle",
+						"enable": false,
+						"label": "Throttle",
+						"position": 11,
+						"value": 352
+					},
+					{
+						"class": "",
+						"code": "Unused",
+						"enable": true,
+						"label": "Unused",
+						"position": 12,
+						"value": 382
+					},
+					{
+						"class": "timerSettings",
+						"code": "Timer",
+						"enable": true,
+						"label": "Timer",
+						"position": 13,
+						"value": 382
+					},
+					{
+						"class": "armedStatusSettings",
+						"code": "ArmedStatus",
+						"enable": false,
+						"label": "Armed Status",
+						"position": 14,
+						"value": 311
+					},
+					{
+						"class": "pichAngleSettings",
+						"code": "PitchAngle",
+						"enable": false,
+						"label": "Pitch Angle",
+						"position": 15,
+						"value": 272
+					},
+					{
+						"class": "rollAngleSettings",
+						"code": "RollAngle",
+						"enable": false,
+						"label": "Roll Angle",
+						"position": 16,
+						"value": 285
+					},
+					{
+						"class": "latitudeSettings",
+						"code": "Latitude",
+						"enable": false,
+						"label": "Latitude",
+						"position": 17,
+						"value": 2
+					},
+					{
+						"class": "longtitudeSettings",
+						"code": "Longitude",
+						"enable": false,
+						"label": "Longitude",
+						"position": 18,
+						"value": 17
+					},
+					{
+						"class": "rssiSettings",
+						"code": "RSSI",
+						"enable": false,
+						"label": "RSSI",
+						"position": 19,
+						"value": 332
+					},
+					{
+						"class": "tempeatureSettings",
+						"code": "Temperature",
+						"enable": false,
+						"label": "Temperature",
+						"position": 20,
+						"value": 212
+					},
+					{
+						"class": "vBatSettings",
+						"code": "Voltage- main",
+						"enable": true,
+						"label": "Voltage - main",
+						"position": 21,
+						"value": 363
+					},
+					{
+						"class": "vBatVidSettings",
+						"code": "Voltage- video",
+						"enable": false,
+						"label": "Voltage - video",
+						"position": 22,
+						"value": 303
+					},
+					{
+						"class": "ampSettings",
+						"code": "Amps",
+						"enable": false,
+						"label": "Amps",
+						"position": 23,
+						"value": 374
+					},
+					{
+						"class": "mahSettings",
+						"code": "mAh",
+						"enable": false,
+						"label": "mAh",
+						"position": 24,
+						"value": 369
+					},
+					{
+						"class": "ahiHorizon",
+						"code": "AHI-horizon",
+						"enable": false,
+						"label": "AHI-horizon",
+						"position": 25,
+						"value": 194
+					},
+					{
+						"ahiSidebars": "ahiSidebars",
+						"code": "AHI-sidebars",
+						"enable": false,
+						"label": "AHI-sidebars",
+						"position": 26,
+						"value": 187
+					},
+					{
+						"class": "ahiSidebarsIcon",
+						"code": "AHI-changeicon",
+						"enable": false,
+						"label": "AHI-change icon",
+						"position": 27,
+						"value": 187
+					},
+					{
+						"class": "ahiSidebarsHeight",
+						"code": "SidebarHeight",
+						"enable": false,
+						"label": "Sidebar Height",
+						"position": 28,
+						"value": 3
+					},
+					{
+						"code": "SidebarWidth",
+						"enable": true,
+						"label": "Sidebar Width",
+						"position": 29,
+						"value": 7
+					},
+					{
+						"class": "gymbal",
+						"code": "Gimbal",
+						"enable": false,
+						"label": "Gimbal",
+						"position": 30,
+						"value": 122
+					},
+					{
+						"code": "GPStime",
+						"enable": false,
+						"label": "GPS time",
+						"position": 31,
+						"value": 341
+					},
+					{
+						"code": "FRSkycells",
+						"enable": false,
+						"label": "FRSky cells",
+						"position": 32,
+						"value": 232
+					},
+					{
+						"class": "mode",
+						"code": "Mode",
+						"enable": false,
+						"label": "Mode",
+						"position": 33,
+						"value": 212
+					},
+					{
+						"class": "mapMode",
+						"code": "Mapmode",
+						"enable": false,
+						"label": "Map Mode distance",
+						"position": 34,
+						"value": 46
+					},
+					{
+						"class": "mapCenter",
+						"code": "Mapcenter",
+						"enable": false,
+						"label": "Map Mode center",
+						"position": 35,
+						"value": 195
+					},
+					{
+						"class": "apStAtus",
+						"code": "APstatus",
+						"enable": false,
+						"label": "AP status",
+						"position": 36,
+						"value": 195
+					},
+					{
+						"code": "Watts",
+						"enable": false,
+						"label": "Watts",
+						"position": 37,
+						"value": 339
+					},
+					{
+						"code": "Glidescope",
+						"enable": false,
+						"label": "Glidescope",
+						"position": 38,
+						"value": 186
+					},
+					{
+						"class": "callsign",
+						"code": "CallSign",
+						"enable": false,
+						"label": "Call Sign",
+						"position": 39,
+						"value": 280
+					},
+					{
+						"code": "Debug",
+						"enable": false,
+						"label": "Debug",
+						"position": 40,
+						"value": 220
+					}
+				],
+				"name": "Shiki minimal",
+				"position": 1
+			},
+			{
+				"elements": [
+					{
+						"class": "gpsNumSettings",
+						"code": "Satindicator",
+						"enable": false,
+						"label": "Sat indicator",
+						"position": 0,
+						"value": 49
+					},
+					{
+						"class": "gpsDirectionSettings",
+						"code": "Directionto home",
+						"enable": true,
+						"label": "Direction to home",
+						"position": 1,
+						"value": 48
+					},
+					{
+						"class": "gpsDistanceSettings",
+						"code": "Distance",
+						"enable": true,
+						"label": "Distance",
+						"position": 2,
+						"value": 40
+					},
+					{
+						"class": "speedSettings",
+						"code": "Speed",
+						"enable": true,
+						"label": "Speed",
+						"position": 3,
+						"value": 33
+					},
+					{
+						"class": "eagleToHomePositionSettings",
+						"code": "Angleto home",
+						"enable": false,
+						"label": "Angle to home",
+						"position": 4,
+						"value": 144
+					},
+					{
+						"class": "gpsAltitudeSettings",
+						"code": "GPSaltitude",
+						"enable": false,
+						"label": "GPS altitude",
+						"position": 5,
+						"value": 234
+					},
+					{
+						"class": "senzorsSettings",
+						"code": "Sensor",
+						"enable": false,
+						"label": "Sensor",
+						"position": 6,
+						"value": 212
+					},
+					{
+						"class": "headingSettings",
+						"code": "Heading",
+						"enable": false,
+						"label": "Heading",
+						"position": 7,
+						"value": 234
+					},
+					{
+						"class": "compassSettings",
+						"code": "Compass",
+						"enable": false,
+						"label": "Compass",
+						"position": 8,
+						"value": 39
+					},
+					{
+						"class": "altitudeSettings",
+						"code": "Altitude",
+						"enable": true,
+						"label": "Altitude",
+						"position": 9,
+						"value": 53
+					},
+					{
+						"class": "climbRateSettings",
+						"code": "ClimbRate",
+						"enable": false,
+						"label": "Climb Rate",
+						"position": 10,
+						"value": 233
+					},
+					{
+						"class": "throttleSettings",
+						"code": "Throttle",
+						"enable": false,
+						"label": "Throttle",
+						"position": 11,
+						"value": 352
+					},
+					{
+						"class": "",
+						"code": "Unused",
+						"enable": true,
+						"label": "Unused",
+						"position": 12,
+						"value": 382
+					},
+					{
+						"class": "timerSettings",
+						"code": "Timer",
+						"enable": true,
+						"label": "Timer",
+						"position": 13,
+						"value": 382
+					},
+					{
+						"class": "armedStatusSettings",
+						"code": "ArmedStatus",
+						"enable": true,
+						"label": "Armed Status",
+						"position": 14,
+						"value": 311
+					},
+					{
+						"class": "pichAngleSettings",
+						"code": "PitchAngle",
+						"enable": false,
+						"label": "Pitch Angle",
+						"position": 15,
+						"value": 272
+					},
+					{
+						"class": "rollAngleSettings",
+						"code": "RollAngle",
+						"enable": false,
+						"label": "Roll Angle",
+						"position": 16,
+						"value": 285
+					},
+					{
+						"class": "latitudeSettings",
+						"code": "Latitude",
+						"enable": true,
+						"label": "Latitude",
+						"position": 17,
+						"value": 2
+					},
+					{
+						"class": "longtitudeSettings",
+						"code": "Longitude",
+						"enable": true,
+						"label": "Longitude",
+						"position": 18,
+						"value": 17
+					},
+					{
+						"class": "rssiSettings",
+						"code": "RSSI",
+						"enable": false,
+						"label": "RSSI",
+						"position": 19,
+						"value": 332
+					},
+					{
+						"class": "tempeatureSettings",
+						"code": "Temperature",
+						"enable": false,
+						"label": "Temperature",
+						"position": 20,
+						"value": 212
+					},
+					{
+						"class": "vBatSettings",
+						"code": "Voltage- main",
+						"enable": true,
+						"label": "Voltage - main",
+						"position": 21,
+						"value": 363
+					},
+					{
+						"class": "vBatVidSettings",
+						"code": "Voltage- video",
+						"enable": false,
+						"label": "Voltage - video",
+						"position": 22,
+						"value": 303
+					},
+					{
+						"class": "ampSettings",
+						"code": "Amps",
+						"enable": true,
+						"label": "Amps",
+						"position": 23,
+						"value": 368
+					},
+					{
+						"class": "mahSettings",
+						"code": "mAh",
+						"enable": true,
+						"label": "mAh",
+						"position": 24,
+						"value": 376
+					},
+					{
+						"class": "ahiHorizon",
+						"code": "AHI-horizon",
+						"enable": false,
+						"label": "AHI-horizon",
+						"position": 25,
+						"value": 194
+					},
+					{
+						"ahiSidebars": "ahiSidebars",
+						"code": "AHI-sidebars",
+						"enable": false,
+						"label": "AHI-sidebars",
+						"position": 26,
+						"value": 187
+					},
+					{
+						"class": "ahiSidebarsIcon",
+						"code": "AHI-changeicon",
+						"enable": false,
+						"label": "AHI-change icon",
+						"position": 27,
+						"value": 187
+					},
+					{
+						"class": "ahiSidebarsHeight",
+						"code": "SidebarHeight",
+						"enable": false,
+						"label": "Sidebar Height",
+						"position": 28,
+						"value": 3
+					},
+					{
+						"code": "SidebarWidth",
+						"enable": true,
+						"label": "Sidebar Width",
+						"position": 29,
+						"value": 7
+					},
+					{
+						"class": "gymbal",
+						"code": "Gimbal",
+						"enable": false,
+						"label": "Gimbal",
+						"position": 30,
+						"value": 122
+					},
+					{
+						"code": "GPStime",
+						"enable": false,
+						"label": "GPS time",
+						"position": 31,
+						"value": 341
+					},
+					{
+						"code": "FRSkycells",
+						"enable": false,
+						"label": "FRSky cells",
+						"position": 32,
+						"value": 232
+					},
+					{
+						"class": "mode",
+						"code": "Mode",
+						"enable": false,
+						"label": "Mode",
+						"position": 33,
+						"value": 38
+					},
+					{
+						"class": "mapMode",
+						"code": "Mapmode",
+						"enable": false,
+						"label": "Map Mode distance",
+						"position": 34,
+						"value": 46
+					},
+					{
+						"class": "mapCenter",
+						"code": "Mapcenter",
+						"enable": false,
+						"label": "Map Mode center",
+						"position": 35,
+						"value": 195
+					},
+					{
+						"class": "apStAtus",
+						"code": "APstatus",
+						"enable": false,
+						"label": "AP status",
+						"position": 36,
+						"value": 195
+					},
+					{
+						"code": "Watts",
+						"enable": false,
+						"label": "Watts",
+						"position": 37,
+						"value": 339
+					},
+					{
+						"code": "Glidescope",
+						"enable": false,
+						"label": "Glidescope",
+						"position": 38,
+						"value": 186
+					},
+					{
+						"class": "callsign",
+						"code": "CallSign",
+						"enable": true,
+						"label": "Call Sign",
+						"position": 39,
+						"value": 280
+					},
+					{
+						"code": "Debug",
+						"enable": true,
+						"label": "Debug",
+						"position": 40,
+						"value": 220
+					}
+				],
+				"name": "EZ",
+				"position": 2
+			},
+			{
+				"elements": [
+					{
+						"class": "gpsNumSettings",
+						"code": "Satindicator",
+						"enable": false,
+						"label": "Sat indicator",
+						"position": 0,
+						"value": 49
+					},
+					{
+						"class": "gpsDirectionSettings",
+						"code": "Directionto home",
+						"enable": false,
+						"label": "Direction to home",
+						"position": 1,
+						"value": 48
+					},
+					{
+						"class": "gpsDistanceSettings",
+						"code": "Distance",
+						"enable": false,
+						"label": "Distance",
+						"position": 2,
+						"value": 40
+					},
+					{
+						"class": "speedSettings",
+						"code": "Speed",
+						"enable": false,
+						"label": "Speed",
+						"position": 3,
+						"value": 33
+					},
+					{
+						"class": "eagleToHomePositionSettings",
+						"code": "Angleto home",
+						"enable": false,
+						"label": "Angle to home",
+						"position": 4,
+						"value": 144
+					},
+					{
+						"class": "gpsAltitudeSettings",
+						"code": "GPSaltitude",
+						"enable": false,
+						"label": "GPS altitude",
+						"position": 5,
+						"value": 234
+					},
+					{
+						"class": "senzorsSettings",
+						"code": "Sensor",
+						"enable": false,
+						"label": "Sensor",
+						"position": 6,
+						"value": 212
+					},
+					{
+						"class": "headingSettings",
+						"code": "Heading",
+						"enable": false,
+						"label": "Heading",
+						"position": 7,
+						"value": 234
+					},
+					{
+						"class": "compassSettings",
+						"code": "Compass",
+						"enable": false,
+						"label": "Compass",
+						"position": 8,
+						"value": 39
+					},
+					{
+						"class": "altitudeSettings",
+						"code": "Altitude",
+						"enable": false,
+						"label": "Altitude",
+						"position": 9,
+						"value": 53
+					},
+					{
+						"class": "climbRateSettings",
+						"code": "ClimbRate",
+						"enable": false,
+						"label": "Climb Rate",
+						"position": 10,
+						"value": 233
+					},
+					{
+						"class": "throttleSettings",
+						"code": "Throttle",
+						"enable": false,
+						"label": "Throttle",
+						"position": 11,
+						"value": 352
+					},
+					{
+						"class": "",
+						"code": "Unused",
+						"enable": false,
+						"label": "Unused",
+						"position": 12,
+						"value": 382
+					},
+					{
+						"class": "timerSettings",
+						"code": "Timer",
+						"enable": false,
+						"label": "Timer",
+						"position": 13,
+						"value": 382
+					},
+					{
+						"class": "armedStatusSettings",
+						"code": "ArmedStatus",
+						"enable": true,
+						"label": "Armed Status",
+						"position": 14,
+						"value": 311
+					},
+					{
+						"class": "pichAngleSettings",
+						"code": "PitchAngle",
+						"enable": false,
+						"label": "Pitch Angle",
+						"position": 15,
+						"value": 272
+					},
+					{
+						"class": "rollAngleSettings",
+						"code": "RollAngle",
+						"enable": false,
+						"label": "Roll Angle",
+						"position": 16,
+						"value": 285
+					},
+					{
+						"class": "latitudeSettings",
+						"code": "Latitude",
+						"enable": false,
+						"label": "Latitude",
+						"position": 17,
+						"value": 2
+					},
+					{
+						"class": "longtitudeSettings",
+						"code": "Longitude",
+						"enable": false,
+						"label": "Longitude",
+						"position": 18,
+						"value": 17
+					},
+					{
+						"class": "rssiSettings",
+						"code": "RSSI",
+						"enable": false,
+						"label": "RSSI",
+						"position": 19,
+						"value": 332
+					},
+					{
+						"class": "tempeatureSettings",
+						"code": "Temperature",
+						"enable": false,
+						"label": "Temperature",
+						"position": 20,
+						"value": 212
+					},
+					{
+						"class": "vBatSettings",
+						"code": "Voltage- main",
+						"enable": false,
+						"label": "Voltage - main",
+						"position": 21,
+						"value": 363
+					},
+					{
+						"class": "vBatVidSettings",
+						"code": "Voltage- video",
+						"enable": false,
+						"label": "Voltage - video",
+						"position": 22,
+						"value": 303
+					},
+					{
+						"class": "ampSettings",
+						"code": "Amps",
+						"enable": false,
+						"label": "Amps",
+						"position": 23,
+						"value": 368
+					},
+					{
+						"class": "mahSettings",
+						"code": "mAh",
+						"enable": false,
+						"label": "mAh",
+						"position": 24,
+						"value": 376
+					},
+					{
+						"class": "ahiHorizon",
+						"code": "AHI-horizon",
+						"enable": false,
+						"label": "AHI-horizon",
+						"position": 25,
+						"value": 194
+					},
+					{
+						"ahiSidebars": "ahiSidebars",
+						"code": "AHI-sidebars",
+						"enable": false,
+						"label": "AHI-sidebars",
+						"position": 26,
+						"value": 187
+					},
+					{
+						"class": "ahiSidebarsIcon",
+						"code": "AHI-changeicon",
+						"enable": false,
+						"label": "AHI-change icon",
+						"position": 27,
+						"value": 187
+					},
+					{
+						"class": "ahiSidebarsHeight",
+						"code": "SidebarHeight",
+						"enable": false,
+						"label": "Sidebar Height",
+						"position": 28,
+						"value": 3
+					},
+					{
+						"code": "SidebarWidth",
+						"enable": true,
+						"label": "Sidebar Width",
+						"position": 29,
+						"value": 7
+					},
+					{
+						"class": "gymbal",
+						"code": "Gimbal",
+						"enable": false,
+						"label": "Gimbal",
+						"position": 30,
+						"value": 122
+					},
+					{
+						"code": "GPStime",
+						"enable": false,
+						"label": "GPS time",
+						"position": 31,
+						"value": 341
+					},
+					{
+						"code": "FRSkycells",
+						"enable": false,
+						"label": "FRSky cells",
+						"position": 32,
+						"value": 232
+					},
+					{
+						"class": "mode",
+						"code": "Mode",
+						"enable": false,
+						"label": "Mode",
+						"position": 33,
+						"value": 38
+					},
+					{
+						"class": "mapMode",
+						"code": "Mapmode",
+						"enable": false,
+						"label": "Map Mode distance",
+						"position": 34,
+						"value": 46
+					},
+					{
+						"class": "mapCenter",
+						"code": "Mapcenter",
+						"enable": false,
+						"label": "Map Mode center",
+						"position": 35,
+						"value": 195
+					},
+					{
+						"class": "apStAtus",
+						"code": "APstatus",
+						"enable": false,
+						"label": "AP status",
+						"position": 36,
+						"value": 195
+					},
+					{
+						"code": "Watts",
+						"enable": false,
+						"label": "Watts",
+						"position": 37,
+						"value": 339
+					},
+					{
+						"code": "Glidescope",
+						"enable": false,
+						"label": "Glidescope",
+						"position": 38,
+						"value": 186
+					},
+					{
+						"class": "callsign",
+						"code": "CallSign",
+						"enable": false,
+						"label": "Call Sign",
+						"position": 39,
+						"value": 280
+					},
+					{
+						"code": "Debug",
+						"enable": false,
+						"label": "Debug",
+						"position": 40,
+						"value": 220
+					}
+				],
+				"name": "Clear",
+				"position": 3
+			},
+			{
+				"elements": [
+					{
+						"class": "gpsNumSettings",
+						"code": "Satindicator",
+						"enable": false,
+						"label": "Sat indicator",
+						"position": 0,
+						"value": 49
+					},
+					{
+						"class": "gpsDirectionSettings",
+						"code": "Directionto home",
+						"enable": true,
+						"label": "Direction to home",
+						"position": 1,
+						"value": 49
+					},
+					{
+						"class": "gpsDistanceSettings",
+						"code": "Distance",
+						"enable": true,
+						"label": "Distance",
+						"position": 2,
+						"value": 41
+					},
+					{
+						"class": "speedSettings",
+						"code": "Speed",
+						"enable": true,
+						"label": "Speed",
+						"position": 3,
+						"value": 33
+					},
+					{
+						"class": "eagleToHomePositionSettings",
+						"code": "Angleto home",
+						"enable": false,
+						"label": "Angle to home",
+						"position": 4,
+						"value": 144
+					},
+					{
+						"class": "gpsAltitudeSettings",
+						"code": "GPSaltitude",
+						"enable": false,
+						"label": "GPS altitude",
+						"position": 5,
+						"value": 234
+					},
+					{
+						"class": "senzorsSettings",
+						"code": "Sensor",
+						"enable": false,
+						"label": "Sensor",
+						"position": 6,
+						"value": 212
+					},
+					{
+						"class": "headingSettings",
+						"code": "Heading",
+						"enable": false,
+						"label": "Heading",
+						"position": 7,
+						"value": 234
+					},
+					{
+						"class": "compassSettings",
+						"code": "Compass",
+						"enable": false,
+						"label": "Compass",
+						"position": 8,
+						"value": 39
+					},
+					{
+						"class": "altitudeSettings",
+						"code": "Altitude",
+						"enable": true,
+						"label": "Altitude",
+						"position": 9,
+						"value": 53
+					},
+					{
+						"class": "climbRateSettings",
+						"code": "ClimbRate",
+						"enable": false,
+						"label": "Climb Rate",
+						"position": 10,
+						"value": 233
+					},
+					{
+						"class": "throttleSettings",
+						"code": "Throttle",
+						"enable": false,
+						"label": "Throttle",
+						"position": 11,
+						"value": 352
+					},
+					{
+						"class": "",
+						"code": "Unused",
+						"enable": true,
+						"label": "Unused",
+						"position": 12,
+						"value": 382
+					},
+					{
+						"class": "timerSettings",
+						"code": "Timer",
+						"enable": true,
+						"label": "Timer",
+						"position": 13,
+						"value": 382
+					},
+					{
+						"class": "armedStatusSettings",
+						"code": "ArmedStatus",
+						"enable": true,
+						"label": "Armed Status",
+						"position": 14,
+						"value": 311
+					},
+					{
+						"class": "pichAngleSettings",
+						"code": "PitchAngle",
+						"enable": false,
+						"label": "Pitch Angle",
+						"position": 15,
+						"value": 272
+					},
+					{
+						"class": "rollAngleSettings",
+						"code": "RollAngle",
+						"enable": false,
+						"label": "Roll Angle",
+						"position": 16,
+						"value": 285
+					},
+					{
+						"class": "latitudeSettings",
+						"code": "Latitude",
+						"enable": true,
+						"label": "Latitude",
+						"position": 17,
+						"value": 2
+					},
+					{
+						"class": "longtitudeSettings",
+						"code": "Longitude",
+						"enable": true,
+						"label": "Longitude",
+						"position": 18,
+						"value": 17
+					},
+					{
+						"class": "rssiSettings",
+						"code": "RSSI",
+						"enable": false,
+						"label": "RSSI",
+						"position": 19,
+						"value": 332
+					},
+					{
+						"class": "tempeatureSettings",
+						"code": "Temperature",
+						"enable": false,
+						"label": "Temperature",
+						"position": 20,
+						"value": 212
+					},
+					{
+						"class": "vBatSettings",
+						"code": "Voltage- main",
+						"enable": true,
+						"label": "Voltage - main",
+						"position": 21,
+						"value": 363
+					},
+					{
+						"class": "vBatVidSettings",
+						"code": "Voltage- video",
+						"enable": false,
+						"label": "Voltage - video",
+						"position": 22,
+						"value": 303
+					},
+					{
+						"class": "ampSettings",
+						"code": "Amps",
+						"enable": true,
+						"label": "Amps",
+						"position": 23,
+						"value": 368
+					},
+					{
+						"class": "mahSettings",
+						"code": "mAh",
+						"enable": true,
+						"label": "mAh",
+						"position": 24,
+						"value": 376
+					},
+					{
+						"class": "ahiHorizon",
+						"code": "AHI-horizon",
+						"enable": false,
+						"label": "AHI-horizon",
+						"position": 25,
+						"value": 194
+					},
+					{
+						"ahiSidebars": "ahiSidebars",
+						"code": "AHI-sidebars",
+						"enable": false,
+						"label": "AHI-sidebars",
+						"position": 26,
+						"value": 187
+					},
+					{
+						"class": "ahiSidebarsIcon",
+						"code": "AHI-changeicon",
+						"enable": false,
+						"label": "AHI-change icon",
+						"position": 27,
+						"value": 187
+					},
+					{
+						"class": "ahiSidebarsHeight",
+						"code": "SidebarHeight",
+						"enable": false,
+						"label": "Sidebar Height",
+						"position": 28,
+						"value": 3
+					},
+					{
+						"code": "SidebarWidth",
+						"enable": true,
+						"label": "Sidebar Width",
+						"position": 29,
+						"value": 7
+					},
+					{
+						"class": "gymbal",
+						"code": "Gimbal",
+						"enable": false,
+						"label": "Gimbal",
+						"position": 30,
+						"value": 122
+					},
+					{
+						"code": "GPStime",
+						"enable": false,
+						"label": "GPS time",
+						"position": 31,
+						"value": 341
+					},
+					{
+						"code": "FRSkycells",
+						"enable": false,
+						"label": "FRSky cells",
+						"position": 32,
+						"value": 232
+					},
+					{
+						"class": "mode",
+						"code": "Mode",
+						"enable": true,
+						"label": "Mode",
+						"position": 33,
+						"value": 37
+					},
+					{
+						"class": "mapMode",
+						"code": "Mapmode",
+						"enable": true,
+						"label": "Map Mode distance",
+						"position": 34,
+						"value": 47
+					},
+					{
+						"class": "mapCenter",
+						"code": "Mapcenter",
+						"enable": true,
+						"label": "Map Mode center",
+						"position": 35,
+						"value": 194
+					},
+					{
+						"class": "apStAtus",
+						"code": "APstatus",
+						"enable": false,
+						"label": "AP status",
+						"position": 36,
+						"value": 195
+					},
+					{
+						"code": "Watts",
+						"enable": false,
+						"label": "Watts",
+						"position": 37,
+						"value": 339
+					},
+					{
+						"code": "Glidescope",
+						"enable": false,
+						"label": "Glidescope",
+						"position": 38,
+						"value": 186
+					},
+					{
+						"class": "callsign",
+						"code": "CallSign",
+						"enable": true,
+						"label": "Call Sign",
+						"position": 39,
+						"value": 280
+					},
+					{
+						"code": "Debug",
+						"enable": true,
+						"label": "Debug",
+						"position": 40,
+						"value": 220
+					}
+				],
+				"name": "MAP",
+				"position": 4
+			},
+			{
+				"elements": [
+					{
+						"class": "gpsNumSettings",
+						"code": "Satindicator",
+						"enable": true,
+						"label": "Sat indicator",
+						"position": 0,
+						"value": 62
+					},
+					{
+						"class": "gpsDirectionSettings",
+						"code": "Directionto home",
+						"enable": true,
+						"label": "Direction to home",
+						"position": 1,
+						"value": 372
+					},
+					{
+						"class": "gpsDistanceSettings",
+						"code": "Distance",
+						"enable": true,
+						"label": "Distance",
+						"position": 2,
+						"value": 374
+					},
+					{
+						"class": "speedSettings",
+						"code": "Speed",
+						"enable": true,
+						"label": "Speed",
+						"position": 3,
+						"value": 96
+					},
+					{
+						"class": "eagleToHomePositionSettings",
+						"code": "Angleto home",
+						"enable": false,
+						"label": "Angle to home",
+						"position": 4,
+						"value": 144
+					},
+					{
+						"class": "gpsAltitudeSettings",
+						"code": "GPSaltitude",
+						"enable": false,
+						"label": "GPS altitude",
+						"position": 5,
+						"value": 234
+					},
+					{
+						"class": "senzorsSettings",
+						"code": "Sensor",
+						"enable": false,
+						"label": "Sensor",
+						"position": 6,
+						"value": 36
+					},
+					{
+						"class": "headingSettings",
+						"code": "Heading",
+						"enable": false,
+						"label": "Heading",
+						"position": 7,
+						"value": 234
+					},
+					{
+						"class": "compassSettings",
+						"code": "Compass",
+						"enable": false,
+						"label": "Compass",
+						"position": 8,
+						"value": 40
+					},
+					{
+						"class": "altitudeSettings",
+						"code": "Altitude",
+						"enable": true,
+						"label": "Altitude",
+						"position": 9,
+						"value": 110
+					},
+					{
+						"class": "climbRateSettings",
+						"code": "ClimbRate",
+						"enable": true,
+						"label": "Climb Rate",
+						"position": 10,
+						"value": 202
+					},
+					{
+						"class": "throttleSettings",
+						"code": "Throttle",
+						"enable": false,
+						"label": "Throttle",
+						"position": 11,
+						"value": 352
+					},
+					{
+						"class": "",
+						"code": "Unused",
+						"enable": true,
+						"label": "Unused",
+						"position": 12,
+						"value": 289
+					},
+					{
+						"class": "timerSettings",
+						"code": "Timer",
+						"enable": true,
+						"label": "Timer",
+						"position": 13,
+						"value": 289
+					},
+					{
+						"class": "armedStatusSettings",
+						"code": "ArmedStatus",
+						"enable": true,
+						"label": "Armed Status",
+						"position": 14,
+						"value": 71
+					},
+					{
+						"class": "pichAngleSettings",
+						"code": "PitchAngle",
+						"enable": false,
+						"label": "Pitch Angle",
+						"position": 15,
+						"value": 272
+					},
+					{
+						"class": "rollAngleSettings",
+						"code": "RollAngle",
+						"enable": false,
+						"label": "Roll Angle",
+						"position": 16,
+						"value": 285
+					},
+					{
+						"class": "latitudeSettings",
+						"code": "Latitude",
+						"enable": true,
+						"label": "Latitude",
+						"position": 17,
+						"value": 32
+					},
+					{
+						"class": "longtitudeSettings",
+						"code": "Longitude",
+						"enable": true,
+						"label": "Longitude",
+						"position": 18,
+						"value": 47
+					},
+					{
+						"class": "rssiSettings",
+						"code": "RSSI",
+						"enable": true,
+						"label": "RSSI",
+						"position": 19,
+						"value": 335
+					},
+					{
+						"class": "tempeatureSettings",
+						"code": "Temperature",
+						"enable": false,
+						"label": "Temperature",
+						"position": 20,
+						"value": 213
+					},
+					{
+						"class": "vBatSettings",
+						"code": "Voltage- main",
+						"enable": true,
+						"label": "Voltage - main",
+						"position": 21,
+						"value": 275
+					},
+					{
+						"class": "vBatVidSettings",
+						"code": "Voltage- video",
+						"enable": false,
+						"label": "Voltage - video",
+						"position": 22,
+						"value": 303
+					},
+					{
+						"class": "ampSettings",
+						"code": "Amps",
+						"enable": true,
+						"label": "Amps",
+						"position": 23,
+						"value": 304
+					},
+					{
+						"class": "mahSettings",
+						"code": "mAh",
+						"enable": true,
+						"label": "mAh",
+						"position": 24,
+						"value": 319
+					},
+					{
+						"class": "ahiHorizon",
+						"code": "AHI-horizon",
+						"enable": true,
+						"label": "AHI-horizon",
+						"position": 25,
+						"value": 194
+					},
+					{
+						"ahiSidebars": "ahiSidebars",
+						"code": "AHI-sidebars",
+						"enable": true,
+						"label": "AHI-sidebars",
+						"position": 26,
+						"value": 187
+					},
+					{
+						"class": "ahiSidebarsIcon",
+						"code": "AHI-changeicon",
+						"enable": false,
+						"label": "AHI-change icon",
+						"position": 27,
+						"value": 187
+					},
+					{
+						"class": "ahiSidebarsHeight",
+						"code": "SidebarHeight",
+						"enable": false,
+						"label": "Sidebar Height",
+						"position": 28,
+						"value": 2
+					},
+					{
+						"code": "SidebarWidth",
+						"enable": true,
+						"label": "Sidebar Width",
+						"position": 29,
+						"value": 7
+					},
+					{
+						"class": "gymbal",
+						"code": "Gimbal",
+						"enable": false,
+						"label": "Gimbal",
+						"position": 30,
+						"value": 122
+					},
+					{
+						"code": "GPStime",
+						"enable": false,
+						"label": "GPS time",
+						"position": 31,
+						"value": 341
+					},
+					{
+						"code": "FRSkycells",
+						"enable": false,
+						"label": "FRSky cells",
+						"position": 32,
+						"value": 232
+					},
+					{
+						"class": "mode",
+						"code": "Mode",
+						"enable": false,
+						"label": "Mode",
+						"position": 33,
+						"value": 123
+					},
+					{
+						"class": "mapMode",
+						"code": "Mapmode",
+						"enable": false,
+						"label": "Map Mode distance",
+						"position": 34,
+						"value": 46
+					},
+					{
+						"class": "mapCenter",
+						"code": "Mapcenter",
+						"enable": false,
+						"label": "Map Mode center",
+						"position": 35,
+						"value": 195
+					},
+					{
+						"class": "apStAtus",
+						"code": "APstatus",
+						"enable": false,
+						"label": "AP status",
+						"position": 36,
+						"value": 195
+					},
+					{
+						"code": "Watts",
+						"enable": false,
+						"label": "Watts",
+						"position": 37,
+						"value": 339
+					},
+					{
+						"code": "Glidescope",
+						"enable": false,
+						"label": "Glidescope",
+						"position": 38,
+						"value": 186
+					},
+					{
+						"code": "CallSign",
+						"enable": true,
+						"label": "Call Sign",
+						"position": 39,
+						"value": 280
+					},
+					{
+						"code": "Debug",
+						"enable": true,
+						"label": "Debug",
+						"position": 40,
+						"value": 220
+					}
+				],
+				"name": "F15",
+				"position": 5
+			},
+			{
+				"elements": [
+					{
+						"class": "gpsNumSettings",
+						"code": "Satindicator",
+						"enable": true,
+						"label": "Sat indicator",
+						"position": 0,
+						"value": 53
+					},
+					{
+						"class": "gpsDirectionSettings",
+						"code": "Directionto home",
+						"enable": true,
+						"label": "Direction to home",
+						"position": 1,
+						"value": 344
+					},
+					{
+						"class": "gpsDistanceSettings",
+						"code": "Distance",
+						"enable": true,
+						"label": "Distance",
+						"position": 2,
+						"value": 363
+					},
+					{
+						"class": "speedSettings",
+						"code": "Speed",
+						"enable": true,
+						"label": "Speed",
+						"position": 3,
+						"value": 303
+					},
+					{
+						"class": "eagleToHomePositionSettings",
+						"code": "Angleto home",
+						"enable": false,
+						"label": "Angle to home",
+						"position": 4,
+						"value": 144
+					},
+					{
+						"class": "gpsAltitudeSettings",
+						"code": "GPSaltitude",
+						"enable": false,
+						"label": "GPS altitude",
+						"position": 5,
+						"value": 234
+					},
+					{
+						"class": "senzorsSettings",
+						"code": "Sensor",
+						"enable": false,
+						"label": "Sensor",
+						"position": 6,
+						"value": 36
+					},
+					{
+						"class": "headingSettings",
+						"code": "Heading",
+						"enable": false,
+						"label": "Heading",
+						"position": 7,
+						"value": 234
+					},
+					{
+						"class": "compassSettings",
+						"code": "Compass",
+						"enable": true,
+						"label": "Compass",
+						"position": 8,
+						"value": 370
+					},
+					{
+						"class": "altitudeSettings",
+						"code": "Altitude",
+						"enable": true,
+						"label": "Altitude",
+						"position": 9,
+						"value": 333
+					},
+					{
+						"class": "climbRateSettings",
+						"code": "ClimbRate",
+						"enable": false,
+						"label": "Climb Rate",
+						"position": 10,
+						"value": 202
+					},
+					{
+						"class": "throttleSettings",
+						"code": "Throttle",
+						"enable": false,
+						"label": "Throttle",
+						"position": 11,
+						"value": 352
+					},
+					{
+						"class": "",
+						"code": "Unused",
+						"enable": true,
+						"label": "Unused",
+						"position": 12,
+						"value": 382
+					},
+					{
+						"class": "timerSettings",
+						"code": "Timer",
+						"enable": true,
+						"label": "Timer",
+						"position": 13,
+						"value": 382
+					},
+					{
+						"class": "armedStatusSettings",
+						"code": "ArmedStatus",
+						"enable": true,
+						"label": "Armed Status",
+						"position": 14,
+						"value": 311
+					},
+					{
+						"class": "pichAngleSettings",
+						"code": "PitchAngle",
+						"enable": false,
+						"label": "Pitch Angle",
+						"position": 15,
+						"value": 272
+					},
+					{
+						"class": "rollAngleSettings",
+						"code": "RollAngle",
+						"enable": false,
+						"label": "Roll Angle",
+						"position": 16,
+						"value": 285
+					},
+					{
+						"class": "latitudeSettings",
+						"code": "Latitude",
+						"enable": true,
+						"label": "Latitude",
+						"position": 17,
+						"value": 2
+					},
+					{
+						"class": "longtitudeSettings",
+						"code": "Longitude",
+						"enable": true,
+						"label": "Longitude",
+						"position": 18,
+						"value": 17
+					},
+					{
+						"class": "rssiSettings",
+						"code": "RSSI",
+						"enable": true,
+						"label": "RSSI",
+						"position": 19,
+						"value": 85
+					},
+					{
+						"class": "tempeatureSettings",
+						"code": "Temperature",
+						"enable": false,
+						"label": "Temperature",
+						"position": 20,
+						"value": 213
+					},
+					{
+						"class": "vBatSettings",
+						"code": "Voltage- main",
+						"enable": true,
+						"label": "Voltage - main",
+						"position": 21,
+						"value": 353
+					},
+					{
+						"class": "vBatVidSettings",
+						"code": "Voltage- video",
+						"enable": true,
+						"label": "Voltage - video",
+						"position": 22,
+						"value": 263
+					},
+					{
+						"class": "ampSettings",
+						"code": "Amps",
+						"enable": true,
+						"label": "Amps",
+						"position": 23,
+						"value": 292
+					},
+					{
+						"class": "mahSettings",
+						"code": "mAh",
+						"enable": true,
+						"label": "mAh",
+						"position": 24,
+						"value": 322
+					},
+					{
+						"class": "ahiHorizon",
+						"code": "AHI-horizon",
+						"enable": false,
+						"label": "AHI-horizon",
+						"position": 25,
+						"value": 194
+					},
+					{
+						"ahiSidebars": "ahiSidebars",
+						"code": "AHI-sidebars",
+						"enable": false,
+						"label": "AHI-sidebars",
+						"position": 26,
+						"value": 187
+					},
+					{
+						"class": "ahiSidebarsIcon",
+						"code": "AHI-changeicon",
+						"enable": false,
+						"label": "AHI-change icon",
+						"position": 27,
+						"value": 187
+					},
+					{
+						"class": "ahiSidebarsHeight",
+						"code": "SidebarHeight",
+						"enable": false,
+						"label": "Sidebar Height",
+						"position": 28,
+						"value": 3
+					},
+					{
+						"code": "SidebarWidth",
+						"enable": true,
+						"label": "Sidebar Width",
+						"position": 29,
+						"value": 7
+					},
+					{
+						"class": "gymbal",
+						"code": "Gimbal",
+						"enable": false,
+						"label": "Gimbal",
+						"position": 30,
+						"value": 122
+					},
+					{
+						"code": "GPStime",
+						"enable": false,
+						"label": "GPS time",
+						"position": 31,
+						"value": 341
+					},
+					{
+						"code": "FRSkycells",
+						"enable": false,
+						"label": "FRSky cells",
+						"position": 32,
+						"value": 232
+					},
+					{
+						"class": "mode",
+						"code": "Mode",
+						"enable": true,
+						"label": "Mode",
+						"position": 33,
+						"value": 33
+					},
+					{
+						"class": "mapMode",
+						"code": "Mapmode",
+						"enable": false,
+						"label": "Map Mode distance",
+						"position": 34,
+						"value": 46
+					},
+					{
+						"class": "mapCenter",
+						"code": "Mapcenter",
+						"enable": false,
+						"label": "Map Mode center",
+						"position": 35,
+						"value": 195
+					},
+					{
+						"class": "apStAtus",
+						"code": "APstatus",
+						"enable": false,
+						"label": "AP status",
+						"position": 36,
+						"value": 195
+					},
+					{
+						"code": "Watts",
+						"enable": false,
+						"label": "Watts",
+						"position": 37,
+						"value": 339
+					},
+					{
+						"code": "Glidescope",
+						"enable": false,
+						"label": "Glidescope",
+						"position": 38,
+						"value": 186
+					},
+					{
+						"class": "callsign",
+						"code": "CallSign",
+						"enable": true,
+						"label": "Call Sign",
+						"position": 39,
+						"value": 280
+					},
+					{
+						"code": "Debug",
+						"enable": true,
+						"label": "Debug",
+						"position": 40,
+						"value": 220
+					}
+				],
+				"name": "Embraer",
+				"position": 6
+			},
+			{
+				"elements": [
+					{
+						"class": "gpsNumSettings",
+						"code": "Satindicator",
+						"enable": true,
+						"label": "Sat indicator",
+						"position": 0,
+						"value": 54
+					},
+					{
+						"class": "gpsDirectionSettings",
+						"code": "Directionto home",
+						"enable": true,
+						"label": "Direction to home",
+						"position": 1,
+						"value": 74
+					},
+					{
+						"class": "gpsDistanceSettings",
+						"code": "Distance",
+						"enable": true,
+						"label": "Distance",
+						"position": 2,
+						"value": 372
+					},
+					{
+						"class": "speedSettings",
+						"code": "Speed",
+						"enable": true,
+						"label": "Speed",
+						"position": 3,
+						"value": 93
+					},
+					{
+						"class": "eagleToHomePositionSettings",
+						"code": "Angleto home",
+						"enable": false,
+						"label": "Angle to home",
+						"position": 4,
+						"value": 144
+					},
+					{
+						"class": "gpsAltitudeSettings",
+						"code": "GPSaltitude",
+						"enable": false,
+						"label": "GPS altitude",
+						"position": 5,
+						"value": 234
+					},
+					{
+						"class": "senzorsSettings",
+						"code": "Sensor",
+						"enable": false,
+						"label": "Sensor",
+						"position": 6,
+						"value": 32
+					},
+					{
+						"class": "headingSettings",
+						"code": "Heading",
+						"enable": false,
+						"label": "Heading",
+						"position": 7,
+						"value": 114
+					},
+					{
+						"class": "compassSettings",
+						"code": "Compass",
+						"enable": true,
+						"label": "Compass",
+						"position": 8,
+						"value": 100
+					},
+					{
+						"class": "altitudeSettings",
+						"code": "Altitude",
+						"enable": true,
+						"label": "Altitude",
+						"position": 9,
+						"value": 113
+					},
+					{
+						"class": "climbRateSettings",
+						"code": "ClimbRate",
+						"enable": false,
+						"label": "Climb Rate",
+						"position": 10,
+						"value": 202
+					},
+					{
+						"class": "throttleSettings",
+						"code": "Throttle",
+						"enable": false,
+						"label": "Throttle",
+						"position": 11,
+						"value": 352
+					},
+					{
+						"class": "",
+						"code": "Unused",
+						"enable": true,
+						"label": "Unused",
+						"position": 12,
+						"value": 41
+					},
+					{
+						"class": "timerSettings",
+						"code": "Timer",
+						"enable": true,
+						"label": "Timer",
+						"position": 13,
+						"value": 41
+					},
+					{
+						"class": "armedStatusSettings",
+						"code": "ArmedStatus",
+						"enable": true,
+						"label": "Armed Status",
+						"position": 14,
+						"value": 311
+					},
+					{
+						"class": "pichAngleSettings",
+						"code": "PitchAngle",
+						"enable": false,
+						"label": "Pitch Angle",
+						"position": 15,
+						"value": 272
+					},
+					{
+						"class": "rollAngleSettings",
+						"code": "RollAngle",
+						"enable": false,
+						"label": "Roll Angle",
+						"position": 16,
+						"value": 285
+					},
+					{
+						"class": "latitudeSettings",
+						"code": "Latitude",
+						"enable": true,
+						"label": "Latitude",
+						"position": 17,
+						"value": 2
+					},
+					{
+						"class": "longtitudeSettings",
+						"code": "Longitude",
+						"enable": true,
+						"label": "Longitude",
+						"position": 18,
+						"value": 17
+					},
+					{
+						"class": "rssiSettings",
+						"code": "RSSI",
+						"enable": true,
+						"label": "RSSI",
+						"position": 19,
+						"value": 32
+					},
+					{
+						"class": "tempeatureSettings",
+						"code": "Temperature",
+						"enable": false,
+						"label": "Temperature",
+						"position": 20,
+						"value": 213
+					},
+					{
+						"class": "vBatSettings",
+						"code": "Voltage- main",
+						"enable": true,
+						"label": "Voltage - main",
+						"position": 21,
+						"value": 383
+					},
+					{
+						"class": "vBatVidSettings",
+						"code": "Voltage- video",
+						"enable": true,
+						"label": "Voltage - video",
+						"position": 22,
+						"value": 353
+					},
+					{
+						"class": "ampSettings",
+						"code": "Amps",
+						"enable": true,
+						"label": "Amps",
+						"position": 23,
+						"value": 361
+					},
+					{
+						"class": "mahSettings",
+						"code": "mAh",
+						"enable": true,
+						"label": "mAh",
+						"position": 24,
+						"value": 332
+					},
+					{
+						"class": "ahiHorizon",
+						"code": "AHI-horizon",
+						"enable": false,
+						"label": "AHI-horizon",
+						"position": 25,
+						"value": 194
+					},
+					{
+						"code": "AHI-sidebars",
+						"enable": true,
+						"label": "AHI-sidebars",
+						"position": 26,
+						"value": 187
+					},
+					{
+						"class": "ahiSidebarsIcon",
+						"code": "AHI-changeicon",
+						"enable": true,
+						"label": "AHI-change icon",
+						"position": 27,
+						"value": 187
+					},
+					{
+						"class": "ahiSidebarsHeight",
+						"code": "SidebarHeight",
+						"enable": false,
+						"label": "Sidebar Height",
+						"position": 28,
+						"value": 3
+					},
+					{
+						"code": "SidebarWidth",
+						"enable": true,
+						"label": "Sidebar Width",
+						"position": 29,
+						"value": 7
+					},
+					{
+						"class": "gymbal",
+						"code": "Gimbal",
+						"enable": false,
+						"label": "Gimbal",
+						"position": 30,
+						"value": 122
+					},
+					{
+						"code": "GPStime",
+						"enable": false,
+						"label": "GPS time",
+						"position": 31,
+						"value": 341
+					},
+					{
+						"code": "FRSkycells",
+						"enable": false,
+						"label": "FRSky cells",
+						"position": 32,
+						"value": 232
+					},
+					{
+						"class": "mode",
+						"code": "Mode",
+						"enable": true,
+						"label": "Mode",
+						"position": 33,
+						"value": 50
+					},
+					{
+						"class": "mapMode",
+						"code": "Mapmode",
+						"enable": false,
+						"label": "Map Mode distance",
+						"position": 34,
+						"value": 46
+					},
+					{
+						"class": "mapCenter",
+						"code": "Mapcenter",
+						"enable": false,
+						"label": "Map Mode center",
+						"position": 35,
+						"value": 194
+					},
+					{
+						"class": "apStAtus",
+						"code": "APstatus",
+						"enable": false,
+						"label": "AP status",
+						"position": 36,
+						"value": 195
+					},
+					{
+						"code": "Watts",
+						"enable": false,
+						"label": "Watts",
+						"position": 37,
+						"value": 339
+					},
+					{
+						"code": "Glidescope",
+						"enable": false,
+						"label": "Glidescope",
+						"position": 38,
+						"value": 186
+					},
+					{
+						"class": "callsign",
+						"code": "CallSign",
+						"enable": true,
+						"label": "Call Sign",
+						"position": 39,
+						"value": 280
+					},
+					{
+						"code": "Debug",
+						"enable": true,
+						"label": "Debug",
+						"position": 40,
+						"value": 220
+					}
+				],
+				"name": "NAHI",
+				"position": 7
+			},
+			{
+				"elements": [
+					{
+						"class": "gpsNumSettings",
+						"code": "Satindicator",
+						"enable": false,
+						"label": "Sat indicator",
+						"position": 0,
+						"value": 32
+					},
+					{
+						"class": "gpsDirectionSettings",
+						"code": "Directionto home",
+						"enable": false,
+						"label": "Direction to home",
+						"position": 1,
+						"value": 51
+					},
+					{
+						"class": "gpsDistanceSettings",
+						"code": "Distance",
+						"enable": false,
+						"label": "Distance",
+						"position": 2,
+						"value": 54
+					},
+					{
+						"class": "speedSettings",
+						"code": "Speed",
+						"enable": false,
+						"label": "Speed",
+						"position": 3,
+						"value": 183
+					},
+					{
+						"class": "eagleToHomePositionSettings",
+						"code": "Angleto home",
+						"enable": false,
+						"label": "Angle to home",
+						"position": 4,
+						"value": 144
+					},
+					{
+						"class": "gpsAltitudeSettings",
+						"code": "GPSaltitude",
+						"enable": false,
+						"label": "GPS altitude",
+						"position": 5,
+						"value": 84
+					},
+					{
+						"class": "senzorsSettings",
+						"code": "Sensor",
+						"enable": false,
+						"label": "Sensor",
+						"position": 6,
+						"value": 36
+					},
+					{
+						"class": "headingSettings",
+						"code": "Heading",
+						"enable": false,
+						"label": "Heading",
+						"position": 7,
+						"value": 114
+					},
+					{
+						"class": "compassSettings",
+						"code": "Compass",
+						"enable": false,
+						"label": "Compass",
+						"position": 8,
+						"value": 40
+					},
+					{
+						"class": "altitudeSettings",
+						"code": "Altitude",
+						"enable": false,
+						"label": "Altitude",
+						"position": 9,
+						"value": 203
+					},
+					{
+						"class": "climbRateSettings",
+						"code": "ClimbRate",
+						"enable": false,
+						"label": "Climb Rate",
+						"position": 10,
+						"value": 202
+					},
+					{
+						"class": "throttleSettings",
+						"code": "Throttle",
+						"enable": false,
+						"label": "Throttle",
+						"position": 11,
+						"value": 352
+					},
+					{
+						"class": "",
+						"code": "Unused",
+						"enable": true,
+						"label": "Unused",
+						"position": 12,
+						"value": 382
+					},
+					{
+						"class": "timerSettings",
+						"code": "Timer",
+						"enable": true,
+						"label": "Timer",
+						"position": 13,
+						"value": 382
+					},
+					{
+						"class": "armedStatusSettings",
+						"code": "ArmedStatus",
+						"enable": false,
+						"label": "Armed Status",
+						"position": 14,
+						"value": 311
+					},
+					{
+						"class": "pichAngleSettings",
+						"code": "PitchAngle",
+						"enable": false,
+						"label": "Pitch Angle",
+						"position": 15,
+						"value": 272
+					},
+					{
+						"class": "rollAngleSettings",
+						"code": "RollAngle",
+						"enable": false,
+						"label": "Roll Angle",
+						"position": 16,
+						"value": 287
+					},
+					{
+						"class": "latitudeSettings",
+						"code": "Latitude",
+						"enable": false,
+						"label": "Latitude",
+						"position": 17,
+						"value": 2
+					},
+					{
+						"class": "longtitudeSettings",
+						"code": "Longitude",
+						"enable": false,
+						"label": "Longitude",
+						"position": 18,
+						"value": 15
+					},
+					{
+						"class": "rssiSettings",
+						"code": "RSSI",
+						"enable": true,
+						"label": "RSSI",
+						"position": 19,
+						"value": 377
+					},
+					{
+						"class": "tempeatureSettings",
+						"code": "Temperature",
+						"enable": false,
+						"label": "Temperature",
+						"position": 20,
+						"value": 213
+					},
+					{
+						"class": "vBatSettings",
+						"code": "Voltage- main",
+						"enable": true,
+						"label": "Voltage - main",
+						"position": 21,
+						"value": 363
+					},
+					{
+						"class": "vBatVidSettings",
+						"code": "Voltage- video",
+						"enable": false,
+						"label": "Voltage - video",
+						"position": 22,
+						"value": 369
+					},
+					{
+						"class": "ampSettings",
+						"code": "Amps",
+						"enable": false,
+						"label": "Amps",
+						"position": 23,
+						"value": 369
+					},
+					{
+						"class": "mahSettings",
+						"code": "mAh",
+						"enable": false,
+						"label": "mAh",
+						"position": 24,
+						"value": 376
+					},
+					{
+						"class": "ahiHorizon",
+						"code": "AHI-horizon",
+						"enable": false,
+						"label": "AHI-horizon",
+						"position": 25,
+						"value": 187
+					},
+					{
+						"code": "AHI-sidebars",
+						"enable": true,
+						"label": "AHI-sidebars",
+						"position": 26,
+						"value": 194
+					},
+					{
+						"class": "ahiSidebarsIcon",
+						"code": "AHI-changeicon",
+						"enable": true,
+						"label": "AHI-change icon",
+						"position": 27,
+						"value": 187
+					},
+					{
+						"class": "ahiSidebarsHeight",
+						"code": "SidebarHeight",
+						"enable": false,
+						"label": "Sidebar Height",
+						"position": 28,
+						"value": 3
+					},
+					{
+						"code": "SidebarWidth",
+						"enable": true,
+						"label": "Sidebar Width",
+						"position": 29,
+						"value": 7
+					},
+					{
+						"class": "gymbal",
+						"code": "Gimbal",
+						"enable": false,
+						"label": "Gimbal",
+						"position": 30,
+						"value": 122
+					},
+					{
+						"code": "GPStime",
+						"enable": false,
+						"label": "GPS time",
+						"position": 31,
+						"value": 341
+					},
+					{
+						"code": "FRSkycells",
+						"enable": false,
+						"label": "FRSky cells",
+						"position": 32,
+						"value": 232
+					},
+					{
+						"class": "mode",
+						"code": "Mode",
+						"enable": false,
+						"label": "Mode",
+						"position": 33,
+						"value": 92
+					},
+					{
+						"class": "mapMode",
+						"code": "Mapmode",
+						"enable": false,
+						"label": "Map Mode distance",
+						"position": 34,
+						"value": 46
+					},
+					{
+						"class": "mapCenter",
+						"code": "Mapcenter",
+						"enable": false,
+						"label": "Map Mode center",
+						"position": 35,
+						"value": 195
+					},
+					{
+						"class": "apStAtus",
+						"code": "APstatus",
+						"enable": false,
+						"label": "AP status",
+						"position": 36,
+						"value": 220
+					},
+					{
+						"code": "Watts",
+						"enable": false,
+						"label": "Watts",
+						"position": 37,
+						"value": 339
+					},
+					{
+						"code": "Glidescope",
+						"enable": false,
+						"label": "Glidescope",
+						"position": 38,
+						"value": 186
+					},
+					{
+						"class": "callsign",
+						"code": "CallSign",
+						"enable": true,
+						"label": "Call Sign",
+						"position": 39,
+						"value": 280
+					},
+					{
+						"code": "Debug",
+						"enable": false,
+						"label": "Debug",
+						"position": 40,
+						"value": 220
+					}
+				],
+				"name": "Groundstation",
+				"position": 8
+			},
+			{
+				"elements": [
+					{
+						"class": "gpsNumSettings",
+						"code": "Satindicator",
+						"enable": false,
+						"label": "Sat indicator",
+						"position": 0,
+						"value": 32
+					},
+					{
+						"class": "gpsDirectionSettings",
+						"code": "Directionto home",
+						"enable": false,
+						"label": "Direction to home",
+						"position": 1,
+						"value": 51
+					},
+					{
+						"class": "gpsDistanceSettings",
+						"code": "Distance",
+						"enable": false,
+						"label": "Distance",
+						"position": 2,
+						"value": 54
+					},
+					{
+						"class": "speedSettings",
+						"code": "Speed",
+						"enable": false,
+						"label": "Speed",
+						"position": 3,
+						"value": 183
+					},
+					{
+						"class": "eagleToHomePositionSettings",
+						"code": "Angleto home",
+						"enable": false,
+						"label": "Angle to home",
+						"position": 4,
+						"value": 144
+					},
+					{
+						"class": "gpsAltitudeSettings",
+						"code": "GPSaltitude",
+						"enable": false,
+						"label": "GPS altitude",
+						"position": 5,
+						"value": 84
+					},
+					{
+						"class": "senzorsSettings",
+						"code": "Sensor",
+						"enable": false,
+						"label": "Sensor",
+						"position": 6,
+						"value": 36
+					},
+					{
+						"class": "headingSettings",
+						"code": "Heading",
+						"enable": false,
+						"label": "Heading",
+						"position": 7,
+						"value": 114
+					},
+					{
+						"class": "compassSettings",
+						"code": "Compass",
+						"enable": false,
+						"label": "Compass",
+						"position": 8,
+						"value": 40
+					},
+					{
+						"class": "altitudeSettings",
+						"code": "Altitude",
+						"enable": false,
+						"label": "Altitude",
+						"position": 9,
+						"value": 203
+					},
+					{
+						"class": "climbRateSettings",
+						"code": "ClimbRate",
+						"enable": false,
+						"label": "Climb Rate",
+						"position": 10,
+						"value": 202
+					},
+					{
+						"class": "throttleSettings",
+						"code": "Throttle",
+						"enable": false,
+						"label": "Throttle",
+						"position": 11,
+						"value": 352
+					},
+					{
+						"class": "",
+						"code": "Unused",
+						"enable": true,
+						"label": "Unused",
+						"position": 12,
+						"value": 382
+					},
+					{
+						"class": "timerSettings",
+						"code": "Timer",
+						"enable": true,
+						"label": "Timer",
+						"position": 13,
+						"value": 382
+					},
+					{
+						"class": "armedStatusSettings",
+						"code": "ArmedStatus",
+						"enable": false,
+						"label": "Armed Status",
+						"position": 14,
+						"value": 311
+					},
+					{
+						"class": "pichAngleSettings",
+						"code": "PitchAngle",
+						"enable": false,
+						"label": "Pitch Angle",
+						"position": 15,
+						"value": 272
+					},
+					{
+						"class": "rollAngleSettings",
+						"code": "RollAngle",
+						"enable": false,
+						"label": "Roll Angle",
+						"position": 16,
+						"value": 287
+					},
+					{
+						"class": "latitudeSettings",
+						"code": "Latitude",
+						"enable": false,
+						"label": "Latitude",
+						"position": 17,
+						"value": 2
+					},
+					{
+						"class": "longtitudeSettings",
+						"code": "Longitude",
+						"enable": false,
+						"label": "Longitude",
+						"position": 18,
+						"value": 15
+					},
+					{
+						"class": "rssiSettings",
+						"code": "RSSI",
+						"enable": true,
+						"label": "RSSI",
+						"position": 19,
+						"value": 354
+					},
+					{
+						"class": "tempeatureSettings",
+						"code": "Temperature",
+						"enable": false,
+						"label": "Temperature",
+						"position": 20,
+						"value": 213
+					},
+					{
+						"class": "vBatSettings",
+						"code": "Voltage- main",
+						"enable": true,
+						"label": "Voltage - main",
+						"position": 21,
+						"value": 363
+					},
+					{
+						"class": "vBatVidSettings",
+						"code": "Voltage- video",
+						"enable": true,
+						"label": "Voltage - video",
+						"position": 22,
+						"value": 333
+					},
+					{
+						"class": "ampSettings",
+						"code": "Amps",
+						"enable": true,
+						"label": "Amps",
+						"position": 23,
+						"value": 369
+					},
+					{
+						"class": "mahSettings",
+						"code": "mAh",
+						"enable": true,
+						"label": "mAh",
+						"position": 24,
+						"value": 376
+					},
+					{
+						"class": "ahiHorizon",
+						"code": "AHI-horizon",
+						"enable": false,
+						"label": "AHI-horizon",
+						"position": 25,
+						"value": 187
+					},
+					{
+						"ahiSidebars": "ahiSidebars",
+						"code": "AHI-sidebars",
+						"enable": true,
+						"label": "AHI-sidebars",
+						"position": 26,
+						"value": 194
+					},
+					{
+						"class": "ahiSidebarsIcon",
+						"code": "AHI-changeicon",
+						"enable": true,
+						"label": "AHI-change icon",
+						"position": 27,
+						"value": 187
+					},
+					{
+						"class": "ahiSidebarsHeight",
+						"code": "SidebarHeight",
+						"enable": false,
+						"label": "Sidebar Height",
+						"position": 28,
+						"value": 3
+					},
+					{
+						"code": "SidebarWidth",
+						"enable": true,
+						"label": "Sidebar Width",
+						"position": 29,
+						"value": 7
+					},
+					{
+						"class": "gymbal",
+						"code": "Gimbal",
+						"enable": false,
+						"label": "Gimbal",
+						"position": 30,
+						"value": 122
+					},
+					{
+						"code": "GPStime",
+						"enable": false,
+						"label": "GPS time",
+						"position": 31,
+						"value": 341
+					},
+					{
+						"code": "FRSkycells",
+						"enable": false,
+						"label": "FRSky cells",
+						"position": 32,
+						"value": 232
+					},
+					{
+						"class": "mode",
+						"code": "Mode",
+						"enable": false,
+						"label": "Mode",
+						"position": 33,
+						"value": 92
+					},
+					{
+						"class": "mapMode",
+						"code": "Mapmode",
+						"enable": false,
+						"label": "Map Mode distance",
+						"position": 34,
+						"value": 46
+					},
+					{
+						"class": "mapCenter",
+						"code": "Mapcenter",
+						"enable": false,
+						"label": "Map Mode center",
+						"position": 35,
+						"value": 195
+					},
+					{
+						"class": "apStAtus",
+						"code": "APstatus",
+						"enable": false,
+						"label": "AP status",
+						"position": 36,
+						"value": 220
+					},
+					{
+						"code": "Watts",
+						"enable": false,
+						"label": "Watts",
+						"position": 37,
+						"value": 339
+					},
+					{
+						"code": "Glidescope",
+						"enable": false,
+						"label": "Glidescope",
+						"position": 38,
+						"value": 186
+					},
+					{
+						"class": "callsign",
+						"code": "CallSign",
+						"enable": true,
+						"label": "Call Sign",
+						"position": 39,
+						"value": 280
+					},
+					{
+						"code": "Debug",
+						"enable": false,
+						"label": "Debug",
+						"position": 40,
+						"value": 220
+					}
+				],
+				"name": "Standalone",
+				"position": 9
+			},
+			{
+				"elements": [
+					{
+						"class": "gpsNumSettings",
+						"code": "Satindicator",
+						"enable": false,
+						"label": "Sat indicator",
+						"position": 0,
+						"value": 32
+					},
+					{
+						"class": "gpsDirectionSettings",
+						"code": "Directionto home",
+						"enable": false,
+						"label": "Direction to home",
+						"position": 1,
+						"value": 51
+					},
+					{
+						"class": "gpsDistanceSettings",
+						"code": "Distance",
+						"enable": false,
+						"label": "Distance",
+						"position": 2,
+						"value": 54
+					},
+					{
+						"class": "speedSettings",
+						"code": "Speed",
+						"enable": false,
+						"label": "Speed",
+						"position": 3,
+						"value": 183
+					},
+					{
+						"class": "eagleToHomePositionSettings",
+						"code": "Angleto home",
+						"enable": false,
+						"label": "Angle to home",
+						"position": 4,
+						"value": 144
+					},
+					{
+						"class": "gpsAltitudeSettings",
+						"code": "GPSaltitude",
+						"enable": false,
+						"label": "GPS altitude",
+						"position": 5,
+						"value": 84
+					},
+					{
+						"class": "senzorsSettings",
+						"code": "Sensor",
+						"enable": true,
+						"label": "Sensor",
+						"position": 6,
+						"value": 378
+					},
+					{
+						"class": "headingSettings",
+						"code": "Heading",
+						"enable": false,
+						"label": "Heading",
+						"position": 7,
+						"value": 114
+					},
+					{
+						"class": "compassSettings",
+						"code": "Compass",
+						"enable": false,
+						"label": "Compass",
+						"position": 8,
+						"value": 40
+					},
+					{
+						"class": "altitudeSettings",
+						"code": "Altitude",
+						"enable": false,
+						"label": "Altitude",
+						"position": 9,
+						"value": 203
+					},
+					{
+						"class": "climbRateSettings",
+						"code": "ClimbRate",
+						"enable": false,
+						"label": "Climb Rate",
+						"position": 10,
+						"value": 202
+					},
+					{
+						"class": "throttleSettings",
+						"code": "Throttle",
+						"enable": false,
+						"label": "Throttle",
+						"position": 11,
+						"value": 373
+					},
+					{
+						"class": "",
+						"code": "Unused",
+						"enable": true,
+						"label": "Unused",
+						"position": 12,
+						"value": 382
+					},
+					{
+						"class": "timerSettings",
+						"code": "Timer",
+						"enable": true,
+						"label": "Timer",
+						"position": 13,
+						"value": 382
+					},
+					{
+						"class": "armedStatusSettings",
+						"code": "ArmedStatus",
+						"enable": true,
+						"label": "Armed Status",
+						"position": 14,
+						"value": 311
+					},
+					{
+						"class": "pichAngleSettings",
+						"code": "PitchAngle",
+						"enable": false,
+						"label": "Pitch Angle",
+						"position": 15,
+						"value": 272
+					},
+					{
+						"class": "rollAngleSettings",
+						"code": "RollAngle",
+						"enable": false,
+						"label": "Roll Angle",
+						"position": 16,
+						"value": 285
+					},
+					{
+						"class": "latitudeSettings",
+						"code": "Latitude",
+						"enable": false,
+						"label": "Latitude",
+						"position": 17,
+						"value": 2
+					},
+					{
+						"class": "longtitudeSettings",
+						"code": "Longitude",
+						"enable": false,
+						"label": "Longitude",
+						"position": 18,
+						"value": 17
+					},
+					{
+						"class": "rssiSettings",
+						"code": "RSSI",
+						"enable": true,
+						"label": "RSSI",
+						"position": 19,
+						"value": 369
+					},
+					{
+						"class": "tempeatureSettings",
+						"code": "Temperature",
+						"enable": false,
+						"label": "Temperature",
+						"position": 20,
+						"value": 213
+					},
+					{
+						"class": "vBatSettings",
+						"code": "Voltage- main",
+						"enable": true,
+						"label": "Voltage - main",
+						"position": 21,
+						"value": 363
+					},
+					{
+						"class": "vBatVidSettings",
+						"code": "Voltage- video",
+						"enable": false,
+						"label": "Voltage - video",
+						"position": 22,
+						"value": 303
+					},
+					{
+						"class": "ampSettings",
+						"code": "Amps",
+						"enable": true,
+						"label": "Amps",
+						"position": 23,
+						"value": 332
+					},
+					{
+						"class": "mahSettings",
+						"code": "mAh",
+						"enable": true,
+						"label": "mAh",
+						"position": 24,
+						"value": 352
+					},
+					{
+						"class": "ahiHorizon",
+						"code": "AHI-horizon",
+						"enable": false,
+						"label": "AHI-horizon",
+						"position": 25,
+						"value": 187
+					},
+					{
+						"ahiSidebars": "ahiSidebars",
+						"code": "AHI-sidebars",
+						"enable": false,
+						"label": "AHI-sidebars",
+						"position": 26,
+						"value": 194
+					},
+					{
+						"class": "ahiSidebarsIcon",
+						"code": "AHI-changeicon",
+						"enable": false,
+						"label": "AHI-change icon",
+						"position": 27,
+						"value": 187
+					},
+					{
+						"class": "ahiSidebarsHeight",
+						"code": "SidebarHeight",
+						"enable": false,
+						"label": "Sidebar Height",
+						"position": 28,
+						"value": 3
+					},
+					{
+						"code": "SidebarWidth",
+						"enable": false,
+						"label": "Sidebar Width",
+						"position": 29,
+						"value": 7
+					},
+					{
+						"class": "gymbal",
+						"code": "Gimbal",
+						"enable": false,
+						"label": "Gimbal",
+						"position": 30,
+						"value": 122
+					},
+					{
+						"code": "GPStime",
+						"enable": false,
+						"label": "GPS time",
+						"position": 31,
+						"value": 341
+					},
+					{
+						"code": "FRSkycells",
+						"enable": false,
+						"label": "FRSky cells",
+						"position": 32,
+						"value": 232
+					},
+					{
+						"class": "mode",
+						"code": "Mode",
+						"enable": false,
+						"label": "Mode",
+						"position": 33,
+						"value": 369
+					},
+					{
+						"class": "mapMode",
+						"code": "Mapmode",
+						"enable": false,
+						"label": "Map Mode distance",
+						"position": 34,
+						"value": 46
+					},
+					{
+						"class": "mapCenter",
+						"code": "Mapcenter",
+						"enable": false,
+						"label": "Map Mode center",
+						"position": 35,
+						"value": 195
+					},
+					{
+						"class": "apStAtus",
+						"code": "APstatus",
+						"enable": false,
+						"label": "AP status",
+						"position": 36,
+						"value": 70
+					},
+					{
+						"code": "Watts",
+						"enable": false,
+						"label": "Watts",
+						"position": 37,
+						"value": 339
+					},
+					{
+						"code": "Glidescope",
+						"enable": false,
+						"label": "Glidescope",
+						"position": 38,
+						"value": 186
+					},
+					{
+						"class": "callsign",
+						"code": "CallSign",
+						"enable": true,
+						"label": "Call Sign",
+						"position": 39,
+						"value": 280
+					},
+					{
+						"code": "Debug",
+						"enable": true,
+						"label": "Debug",
+						"position": 40,
+						"value": 220
+					}
+				],
+				"name": "250 class",
+				"position": 10
+			},
+			{
+				"elements": [
+					{
+						"class": "gpsNumSettings",
+						"code": "Satindicator",
+						"enable": true,
+						"label": "Sat indicator",
+						"position": 0,
+						"value": 47
+					},
+					{
+						"class": "gpsDirectionSettings",
+						"code": "Directionto home",
+						"enable": true,
+						"label": "Direction to home",
+						"position": 1,
+						"value": 344
+					},
+					{
+						"class": "gpsDistanceSettings",
+						"code": "Distance",
+						"enable": true,
+						"label": "Distance",
+						"position": 2,
+						"value": 40
+					},
+					{
+						"class": "speedSettings",
+						"code": "Speed",
+						"enable": true,
+						"label": "Speed",
+						"position": 3,
+						"value": 33
+					},
+					{
+						"class": "eagleToHomePositionSettings",
+						"code": "Angleto home",
+						"enable": false,
+						"label": "Angle to home",
+						"position": 4,
+						"value": 144
+					},
+					{
+						"class": "gpsAltitudeSettings",
+						"code": "GPSaltitude",
+						"enable": false,
+						"label": "GPS altitude",
+						"position": 5,
+						"value": 84
+					},
+					{
+						"class": "senzorsSettings",
+						"code": "Sensor",
+						"enable": false,
+						"label": "Sensor",
+						"position": 6,
+						"value": 36
+					},
+					{
+						"class": "headingSettings",
+						"code": "Heading",
+						"enable": false,
+						"label": "Heading",
+						"position": 7,
+						"value": 114
+					},
+					{
+						"class": "compassSettings",
+						"code": "Compass",
+						"enable": true,
+						"label": "Compass",
+						"position": 8,
+						"value": 370
+					},
+					{
+						"class": "altitudeSettings",
+						"code": "Altitude",
+						"enable": true,
+						"label": "Altitude",
+						"position": 9,
+						"value": 54
+					},
+					{
+						"class": "climbRateSettings",
+						"code": "ClimbRate",
+						"enable": false,
+						"label": "Climb Rate",
+						"position": 10,
+						"value": 202
+					},
+					{
+						"class": "throttleSettings",
+						"code": "Throttle",
+						"enable": false,
+						"label": "Throttle",
+						"position": 11,
+						"value": 352
+					},
+					{
+						"class": "",
+						"code": "Unused",
+						"enable": true,
+						"label": "Unused",
+						"position": 12,
+						"value": 382
+					},
+					{
+						"class": "timerSettings",
+						"code": "Timer",
+						"enable": true,
+						"label": "Timer",
+						"position": 13,
+						"value": 382
+					},
+					{
+						"class": "armedStatusSettings",
+						"code": "ArmedStatus",
+						"enable": true,
+						"label": "Armed Status",
+						"position": 14,
+						"value": 311
+					},
+					{
+						"class": "pichAngleSettings",
+						"code": "PitchAngle",
+						"enable": false,
+						"label": "Pitch Angle",
+						"position": 15,
+						"value": 233
+					},
+					{
+						"class": "rollAngleSettings",
+						"code": "RollAngle",
+						"enable": false,
+						"label": "Roll Angle",
+						"position": 16,
+						"value": 263
+					},
+					{
+						"class": "latitudeSettings",
+						"code": "Latitude",
+						"enable": false,
+						"label": "Latitude",
+						"position": 17,
+						"value": 2
+					},
+					{
+						"class": "longtitudeSettings",
+						"code": "Longitude",
+						"enable": false,
+						"label": "Longitude",
+						"position": 18,
+						"value": 17
+					},
+					{
+						"class": "rssiSettings",
+						"code": "RSSI",
+						"enable": true,
+						"label": "RSSI",
+						"position": 19,
+						"value": 332
+					},
+					{
+						"class": "tempeatureSettings",
+						"code": "Temperature",
+						"enable": false,
+						"label": "Temperature",
+						"position": 20,
+						"value": 213
+					},
+					{
+						"class": "vBatSettings",
+						"code": "Voltage- main",
+						"enable": true,
+						"label": "Voltage - main",
+						"position": 21,
+						"value": 363
+					},
+					{
+						"class": "vBatVidSettings",
+						"code": "Voltage- video",
+						"enable": true,
+						"label": "Voltage - video",
+						"position": 22,
+						"value": 303
+					},
+					{
+						"class": "ampSettings",
+						"code": "Amps",
+						"enable": true,
+						"label": "Amps",
+						"position": 23,
+						"value": 369
+					},
+					{
+						"class": "mahSettings",
+						"code": "mAh",
+						"enable": true,
+						"label": "mAh",
+						"position": 24,
+						"value": 376
+					},
+					{
+						"class": "ahiHorizon",
+						"code": "AHI-horizon",
+						"enable": true,
+						"label": "AHI-horizon",
+						"position": 25,
+						"value": 194
+					},
+					{
+						"ahiSidebars": "ahiSidebars",
+						"code": "AHI-sidebars",
+						"enable": true,
+						"label": "AHI-sidebars",
+						"position": 26,
+						"value": 194
+					},
+					{
+						"class": "ahiSidebarsIcon",
+						"code": "AHI-changeicon",
+						"enable": true,
+						"label": "AHI-change icon",
+						"position": 27,
+						"value": 187
+					},
+					{
+						"class": "ahiSidebarsHeight",
+						"code": "SidebarHeight",
+						"enable": false,
+						"label": "Sidebar Height",
+						"position": 28,
+						"value": 3
+					},
+					{
+						"code": "SidebarWidth",
+						"enable": true,
+						"label": "Sidebar Width",
+						"position": 29,
+						"value": 11
+					},
+					{
+						"class": "gymbal",
+						"code": "Gimbal",
+						"enable": true,
+						"label": "Gimbal",
+						"position": 30,
+						"value": 353
+					},
+					{
+						"code": "GPStime",
+						"enable": false,
+						"label": "GPS time",
+						"position": 31,
+						"value": 341
+					},
+					{
+						"code": "FRSkycells",
+						"enable": false,
+						"label": "FRSky cells",
+						"position": 32,
+						"value": 232
+					},
+					{
+						"class": "mode",
+						"code": "Mode",
+						"enable": true,
+						"label": "Mode",
+						"position": 33,
+						"value": 355
+					},
+					{
+						"class": "mapMode",
+						"code": "Mapmode",
+						"enable": false,
+						"label": "Map Mode distance",
+						"position": 34,
+						"value": 46
+					},
+					{
+						"class": "mapCenter",
+						"code": "Mapcenter",
+						"enable": false,
+						"label": "Map Mode center",
+						"position": 35,
+						"value": 195
+					},
+					{
+						"class": "apStAtus",
+						"code": "APstatus",
+						"enable": true,
+						"label": "AP status",
+						"position": 36,
+						"value": 70
+					},
+					{
+						"code": "Watts",
+						"enable": false,
+						"label": "Watts",
+						"position": 37,
+						"value": 339
+					},
+					{
+						"code": "Glidescope",
+						"enable": false,
+						"label": "Glidescope",
+						"position": 38,
+						"value": 186
+					},
+					{
+						"class": "callsign",
+						"code": "CallSign",
+						"enable": true,
+						"label": "Call Sign",
+						"position": 39,
+						"value": 280
+					},
+					{
+						"code": "Debug",
+						"enable": true,
+						"label": "Debug",
+						"position": 40,
+						"value": 220
+					}
+				],
+				"name": "Aerial Photography",
+				"position": 11
+			},
+			{
+				"elements": [
+					{
+						"class": "gpsNumSettings",
+						"code": "Satindicator",
+						"enable": false,
+						"label": "Sat indicator",
+						"position": 0,
+						"value": 49
+					},
+					{
+						"class": "gpsDirectionSettings",
+						"code": "Directionto home",
+						"enable": true,
+						"label": "Direction to home",
+						"position": 1,
+						"value": 49
+					},
+					{
+						"class": "gpsDistanceSettings",
+						"code": "Distance",
+						"enable": true,
+						"label": "Distance",
+						"position": 2,
+						"value": 41
+					},
+					{
+						"class": "speedSettings",
+						"code": "Speed",
+						"enable": true,
+						"label": "Speed",
+						"position": 3,
+						"value": 33
+					},
+					{
+						"class": "eagleToHomePositionSettings",
+						"code": "Angleto home",
+						"enable": false,
+						"label": "Angle to home",
+						"position": 4,
+						"value": 144
+					},
+					{
+						"class": "gpsAltitudeSettings",
+						"code": "GPSaltitude",
+						"enable": false,
+						"label": "GPS altitude",
+						"position": 5,
+						"value": 234
+					},
+					{
+						"class": "senzorsSettings",
+						"code": "Sensor",
+						"enable": false,
+						"label": "Sensor",
+						"position": 6,
+						"value": 212
+					},
+					{
+						"class": "headingSettings",
+						"code": "Heading",
+						"enable": false,
+						"label": "Heading",
+						"position": 7,
+						"value": 234
+					},
+					{
+						"class": "compassSettings",
+						"code": "Compass",
+						"enable": false,
+						"label": "Compass",
+						"position": 8,
+						"value": 39
+					},
+					{
+						"class": "altitudeSettings",
+						"code": "Altitude",
+						"enable": true,
+						"label": "Altitude",
+						"position": 9,
+						"value": 53
+					},
+					{
+						"class": "climbRateSettings",
+						"code": "ClimbRate",
+						"enable": false,
+						"label": "Climb Rate",
+						"position": 10,
+						"value": 233
+					},
+					{
+						"class": "throttleSettings",
+						"code": "Throttle",
+						"enable": false,
+						"label": "Throttle",
+						"position": 11,
+						"value": 352
+					},
+					{
+						"class": "",
+						"code": "Unused",
+						"enable": true,
+						"label": "Unused",
+						"position": 12,
+						"value": 382
+					},
+					{
+						"class": "timerSettings",
+						"code": "Timer",
+						"enable": true,
+						"label": "Timer",
+						"position": 13,
+						"value": 382
+					},
+					{
+						"class": "armedStatusSettings",
+						"code": "ArmedStatus",
+						"enable": true,
+						"label": "Armed Status",
+						"position": 14,
+						"value": 311
+					},
+					{
+						"class": "pichAngleSettings",
+						"code": "PitchAngle",
+						"enable": false,
+						"label": "Pitch Angle",
+						"position": 15,
+						"value": 272
+					},
+					{
+						"class": "rollAngleSettings",
+						"code": "RollAngle",
+						"enable": false,
+						"label": "Roll Angle",
+						"position": 16,
+						"value": 285
+					},
+					{
+						"class": "latitudeSettings",
+						"code": "Latitude",
+						"enable": true,
+						"label": "Latitude",
+						"position": 17,
+						"value": 2
+					},
+					{
+						"class": "longtitudeSettings",
+						"code": "Longitude",
+						"enable": true,
+						"label": "Longitude",
+						"position": 18,
+						"value": 17
+					},
+					{
+						"class": "rssiSettings",
+						"code": "RSSI",
+						"enable": false,
+						"label": "RSSI",
+						"position": 19,
+						"value": 332
+					},
+					{
+						"class": "tempeatureSettings",
+						"code": "Temperature",
+						"enable": false,
+						"label": "Temperature",
+						"position": 20,
+						"value": 212
+					},
+					{
+						"class": "vBatSettings",
+						"code": "Voltage- main",
+						"enable": true,
+						"label": "Voltage - main",
+						"position": 21,
+						"value": 363
+					},
+					{
+						"class": "vBatVidSettings",
+						"code": "Voltage- video",
+						"enable": false,
+						"label": "Voltage - video",
+						"position": 22,
+						"value": 303
+					},
+					{
+						"class": "ampSettings",
+						"code": "Amps",
+						"enable": true,
+						"label": "Amps",
+						"position": 23,
+						"value": 368
+					},
+					{
+						"class": "mahSettings",
+						"code": "mAh",
+						"enable": true,
+						"label": "mAh",
+						"position": 24,
+						"value": 376
+					},
+					{
+						"class": "ahiHorizon",
+						"code": "AHI-horizon",
+						"enable": false,
+						"label": "AHI-horizon",
+						"position": 25,
+						"value": 194
+					},
+					{
+						"ahiSidebars": "ahiSidebars",
+						"code": "AHI-sidebars",
+						"enable": true,
+						"label": "AHI-sidebars",
+						"position": 26,
+						"value": 185
+					},
+					{
+						"class": "ahiSidebarsIcon",
+						"code": "AHI-changeicon",
+						"enable": true,
+						"label": "AHI-change icon",
+						"position": 27,
+						"value": 187
+					},
+					{
+						"class": "ahiSidebarsHeight",
+						"code": "SidebarHeight",
+						"enable": false,
+						"label": "Sidebar Height",
+						"position": 28,
+						"value": 4
+					},
+					{
+						"code": "SidebarWidth",
+						"enable": true,
+						"label": "Sidebar Width",
+						"position": 29,
+						"value": 11
+					},
+					{
+						"class": "gymbal",
+						"code": "Gimbal",
+						"enable": false,
+						"label": "Gimbal",
+						"position": 30,
+						"value": 122
+					},
+					{
+						"code": "GPStime",
+						"enable": false,
+						"label": "GPS time",
+						"position": 31,
+						"value": 341
+					},
+					{
+						"code": "FRSkycells",
+						"enable": false,
+						"label": "FRSky cells",
+						"position": 32,
+						"value": 232
+					},
+					{
+						"class": "mode",
+						"code": "Mode",
+						"enable": true,
+						"label": "Mode",
+						"position": 33,
+						"value": 37
+					},
+					{
+						"class": "mapMode",
+						"code": "Mapmode",
+						"enable": true,
+						"label": "Map Mode distance",
+						"position": 34,
+						"value": 47
+					},
+					{
+						"class": "mapCenter",
+						"code": "Mapcenter",
+						"enable": true,
+						"label": "Map Mode center",
+						"position": 35,
+						"value": 194
+					},
+					{
+						"class": "apStAtus",
+						"code": "APstatus",
+						"enable": false,
+						"label": "AP status",
+						"position": 36,
+						"value": 195
+					},
+					{
+						"code": "Watts",
+						"enable": false,
+						"label": "Watts",
+						"position": 37,
+						"value": 339
+					},
+					{
+						"code": "Glidescope",
+						"enable": false,
+						"label": "Glidescope",
+						"position": 38,
+						"value": 186
+					},
+					{
+						"class": "callsign",
+						"code": "CallSign",
+						"enable": true,
+						"label": "Call Sign",
+						"position": 39,
+						"value": 280
+					},
+					{
+						"code": "Debug",
+						"enable": true,
+						"label": "Debug",
+						"position": 40,
+						"value": 220
+					}
+				],
+				"name": "EAGLE",
+				"position": 12
+			}
+		],
+		"version": 11
+	}
+}
