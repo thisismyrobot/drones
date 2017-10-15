@@ -71,6 +71,7 @@ echo Concat with audio...
     -i "%audio%" ^
     -map 0:v:0 ^
     -map 1:a:0 ^
-    -c copy ^
+    -c:v copy ^
+    -filter:a "volume=0.5" ^
     -shortest ^
     "%finalVideo%" || exit /b
