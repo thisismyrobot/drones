@@ -1,7 +1,3 @@
-
-CLI
-
-# diff all
 # Betaflight / SPRACINGF3EVO 3.1.7 Apr  3 2017 / 22:28:08 (e1c4b5c)
 defaults
 
@@ -35,6 +31,7 @@ aux 2 4 1 1900 2100
 aux 3 1 1 1400 1600
 adjrange 0 0 0 900 2100 12 0
 rxfail 5 s 1500
+set min_throttle = 1040
 set serialrx_provider = SBUS
 profile 0
 
