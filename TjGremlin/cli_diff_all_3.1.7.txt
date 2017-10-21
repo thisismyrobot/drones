@@ -44,8 +44,12 @@ set rc_expo = 50
 set rc_yaw_expo = 25
 rateprofile 1
 
+set rc_rate = 113
+set rc_rate_yaw = 113
 rateprofile 2
 
+set rc_rate = 125
+set rc_rate_yaw = 125
 rateprofile 0
 profile 1
 
