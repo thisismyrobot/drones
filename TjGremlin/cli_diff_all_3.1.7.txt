@@ -1,5 +1,4 @@
 # Betaflight / SPRACINGF3EVO 3.1.7 Apr  3 2017 / 22:28:08 (e1c4b5c)
-defaults
 
 feature -RX_PPM
 feature -TELEMETRY
@@ -45,11 +44,8 @@ set rc_expo = 50
 set rc_yaw_expo = 25
 rateprofile 1
 
-set rc_expo = 38
-set rc_yaw_expo = 13
 rateprofile 2
 
-set rc_expo = 25
 rateprofile 0
 profile 1
 
