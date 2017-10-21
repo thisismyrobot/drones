@@ -34,6 +34,7 @@ adjrange 0 0 0 900 2100 12 0
 rxfail 5 s 1000
 set min_throttle = 1040
 set serialrx_provider = SBUS
+set vbat_scale = 109
 profile 0
 
 set level_limit = 15
