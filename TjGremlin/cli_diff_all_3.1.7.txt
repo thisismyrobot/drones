@@ -12,6 +12,7 @@ beeper -GYRO_CALIBRATED
 beeper -DISARMING
 beeper -ARMING
 beeper -ARMING_GPS_FIX
+beeper -BAT_CRIT_LOW
 beeper -BAT_LOW
 beeper -GPS_STATUS
 beeper -RX_SET
@@ -28,7 +29,6 @@ aux 0 0 1 1100 2100
 aux 1 28 1 1900 2100
 aux 2 4 1 1900 2100
 aux 3 1 1 1400 1600
-aux 4 13 1 900 1900
 adjrange 0 0 0 900 2100 12 0
 rxfail 5 s 1000
 set min_throttle = 1040
