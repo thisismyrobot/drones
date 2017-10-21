@@ -37,7 +37,7 @@ set serialrx_provider = SBUS
 set vbat_scale = 109
 profile 0
 
-set level_limit = 15
+set level_limit = 30
 rateprofile 0
 rateprofile 0
 
