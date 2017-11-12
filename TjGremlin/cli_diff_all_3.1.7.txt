@@ -12,7 +12,6 @@ beeper -GYRO_CALIBRATED
 beeper -DISARMING
 beeper -ARMING
 beeper -ARMING_GPS_FIX
-beeper -BAT_CRIT_LOW
 beeper -BAT_LOW
 beeper -GPS_STATUS
 beeper -RX_SET
@@ -25,15 +24,18 @@ beeper -ARMED
 beeper -SYSTEM_INIT
 beeper -ON_USB
 serial 2 64 115200 57600 0 115200
-aux 0 0 1 1100 2100
-aux 1 28 1 1900 2100
-aux 2 4 1 1900 2100
-aux 3 1 1 1400 1600
+aux 0 0 1 1200 2100
+aux 1 28 0 1200 2100
+aux 2 4 0 1200 2100
+aux 3 1 0 900 1150
 adjrange 0 0 0 900 2100 12 0
-rxfail 5 s 1000
 set min_throttle = 1040
 set serialrx_provider = SBUS
 set vbat_scale = 109
+set vbat_min_cell_voltage = 32
+set vbat_warning_cell_voltage = 33
+set align_board_roll = 2
+set align_board_pitch = -4
 profile 0
 
 set level_limit = 30
@@ -44,8 +46,6 @@ set rc_expo = 50
 set rc_yaw_expo = 25
 rateprofile 1
 
-set rc_rate = 113
-set rc_rate_yaw = 113
 set rc_expo = 50
 set rc_yaw_expo = 25
 rateprofile 2
