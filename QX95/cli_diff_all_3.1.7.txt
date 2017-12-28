@@ -1,5 +1,6 @@
 # Betaflight / SPRACINGF3EVO 3.1.7
 
+feature -FAILSAFE
 feature -TELEMETRY
 feature -CURRENT_METER
 feature -RSSI_ADC
@@ -26,7 +27,6 @@ aux 1 28 1 1900 2100
 aux 2 4 1 1900 2100
 aux 3 1 1 1400 1600
 adjrange 0 0 0 900 2100 12 0
-rxfail 5 s 1500
 profile 0
 
 set level_limit = 15
