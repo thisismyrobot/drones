@@ -22,10 +22,8 @@ beeper -DISARM_REPEAT
 beeper -ARMED
 beeper -SYSTEM_INIT
 beeper -ON_USB
-aux 0 0 1 1100 2100
-aux 1 28 1 1900 2100
-aux 2 4 1 1900 2100
-aux 3 1 1 1400 1600
+aux 0 0 1 1800 2100
+aux 1 1 1 900 2100
 adjrange 0 0 0 900 2100 12 0
 profile 0
 
@@ -35,13 +33,18 @@ rateprofile 0
 
 set rc_expo = 50
 set rc_yaw_expo = 25
+set thr_mid = 100
 rateprofile 1
 
 set rc_expo = 38
 set rc_yaw_expo = 13
+set thr_mid = 100
+set thr_expo = 25
 rateprofile 2
 
 set rc_expo = 25
+set thr_mid = 100
+set thr_expo = 50
 rateprofile 0
 profile 1
 
