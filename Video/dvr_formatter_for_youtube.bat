@@ -47,7 +47,7 @@ echo Layering...
 %ffmpegLoc% ^
     %commonParams% ^
     -i "%originalVideo%" ^
-    -filter_complex "scale=1920:-1, drawtext=fontfile='c\:\\Windows\\Fonts\\arial.ttf':text=%text%:fontcolor=white:alpha=0.5:fontsize=28:x=30:y=(h-text_h-30)" ^
+    -filter_complex "scale=1920:-1, drawtext=fontfile='c\:\\Windows\\Fonts\\arial.ttf':text=%text%:fontcolor=white:alpha=0.5:fontsize=28:x=(main_w/2-text_w/2):y=(h-text_h-30)" ^
     -c:v libx264 ^
     -preset slow ^
     -crf 18 ^
