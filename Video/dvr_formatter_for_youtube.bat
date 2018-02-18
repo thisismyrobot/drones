@@ -10,6 +10,7 @@
 ::
 ::      ffmpeg -ss [start] -i in.avi -t [duration] -c copy out.avi
 ::
+:: DVR outputs 1280x720 video.
 @echo off
 
 :: Settings
@@ -23,18 +24,9 @@ set commonParams=-y -hide_banner -loglevel error
 set originalVideo=%~1
 
 :: Computed file paths
-set backgroundVideo=%temp%\background_%~nx1
 set creditVideo=%temp%\credit_%~nx1
 set processedVideo=%temp%\processed_%~nx1
 set finalVideo=%~dp1youtube_%~nx1
-
-:: Prepare the background video.
-echo Background video...
-%ffmpegLoc% ^
-    %commonParams% ^
-    -i "%originalVideo%" ^
-    -filter:v "crop=640:360:0:60, scale=-1:480, boxblur=20:1" ^
-    "%backgroundVideo%" || exit /b
 
 :: Prepare the end credit.
 echo End credit...
@@ -54,9 +46,8 @@ echo End credit...
 echo Layering...
 %ffmpegLoc% ^
     %commonParams% ^
-    -i "%backgroundVideo%" ^
     -i "%originalVideo%" ^
-    -filter_complex "[0:0][1:0]overlay=106:0, scale=1920:-1, drawtext=fontfile='c\:\\Windows\\Fonts\\arial.ttf':text=%text%:fontcolor=white:alpha=0.5:fontsize=28:x=30:y=(h-text_h-30)" ^
+    -filter_complex "scale=1920:-1, drawtext=fontfile='c\:\\Windows\\Fonts\\arial.ttf':text=%text%:fontcolor=white:alpha=0.5:fontsize=28:x=30:y=(h-text_h-30)" ^
     -c:v libx264 ^
     -preset slow ^
     -crf 18 ^
