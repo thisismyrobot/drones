@@ -1,19 +1,22 @@
 wingThickness = 2;
 rxHeight = 6;
 
-// Basic block
-body();
+// Print rotation
+rotate([0, 0, 0]) {
+    // Basic block
+    body();
 
-// Left wing
-translate([0, 0, 10 - wingThickness - rxHeight]){
-    mirror([1, 0, 0]){
-        leftWing();
+    // Left wing
+    translate([0, 0, 10 - wingThickness - rxHeight]){
+        mirror([1, 0, 0]){
+            leftWing();
+        }
     }
-}
 
-// Right wing
-translate([20, 0, 10 - wingThickness]){
-    rightWing();
+    // Right wing
+    translate([20, 0, 10 - wingThickness]){
+        rightWing();
+    }
 }
 
 
@@ -44,8 +47,21 @@ module body() {
 
 module leftWing() {
     translate([0, 10, 0]){
-        cube([32, 15, wingThickness]);
-    }    
+        // Wing main
+        cube([28.75, 15, wingThickness]);
+        
+        // Forward offset for antenna hole
+        translate([21.75, -10, 0]) {
+            cube([7, 10, 2]);
+        }
+        
+        // Antenna hole
+        translate([25.25, -10, rxHeight + wingThickness + 1.5]) {
+            rotate([0, -90, 0]) {
+                leftAntennaLoop();
+            }
+        }        
+    }
 }
 
 module rightWing() {
@@ -55,7 +71,7 @@ module rightWing() {
     // Antenna hole - 35.25 from centre
     translate([25.25, 0, wingThickness + 1.5]) {
         difference() {
-            antennaLoop();
+            rightAntennaLoop();
             
             // Cable tie notch
             translate([-12, -2, 2.5]) {
@@ -65,7 +81,23 @@ module rightWing() {
     }
 }
 
-module antennaLoop() {
+module leftAntennaLoop() {
+    rotate([0, 90, 90]) {
+        difference() {
+            union() {
+                translate([-3.5, 0, 0]) {
+                    cube([7, 9.5, 2]);
+                }
+                cylinder(r=6, h=2, $fn=100);
+            }
+            translate([0, 0, -1]) {
+                cylinder(r=3.5, h=10, $fn=100);
+            }
+        }
+    }
+}
+
+module rightAntennaLoop() {
     rotate([0, 90, 90]) {
         difference() {
             union() {
