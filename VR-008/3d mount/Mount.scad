@@ -37,26 +37,16 @@ module body() {
         translate([10, 28, 0]){
             cylinder(r=1.5, h=10, center=true, $fn=100);
         }
-    }
-    
-    // Front tab
-    translate([0, 0, 10]){
-        cube([10, 2, 3]);
-    }
+    }   
 }
 
 module leftWing() {
-    translate([0, 10, 0]){
+    translate([0, 0, 0]){
         // Wing main
-        cube([28.75, 15, wingThickness]);
-        
-        // Forward offset for antenna hole
-        translate([21.75, -10, 0]) {
-            cube([7, 10, 2]);
-        }
-        
+        cube([28.75, 25, wingThickness]);
+       
         // Antenna hole
-        translate([25.25, -10, rxHeight + wingThickness + 1.5]) {
+        translate([25.25, 0, rxHeight + wingThickness + 1.5]) {
             rotate([0, -90, 0]) {
                 leftAntennaLoop();
             }
@@ -70,14 +60,7 @@ module rightWing() {
     
     // Antenna hole - 35.25 from centre
     translate([25.25, 0, wingThickness + 1.5]) {
-        difference() {
-            rightAntennaLoop();
-            
-            // Cable tie notch
-            translate([-12, -2, 2.5]) {
-                cube([3, 10, 10]);
-            }
-        }
+        rightAntennaLoop();
     }
 }
 
@@ -85,8 +68,11 @@ module leftAntennaLoop() {
     rotate([0, 90, 90]) {
         difference() {
             union() {
-                translate([-3.5, 0, 0]) {
-                    cube([7, 9.5, 2]);
+                translate([-38.75, -6, 0]) {
+                    cube([38.75, 7.5, 2]);
+                }
+                translate([-38.75, 1.5, 0]) {
+                    cube([42.25, 6, 2]);
                 }
                 cylinder(r=6, h=2, $fn=100);
             }
@@ -101,8 +87,17 @@ module rightAntennaLoop() {
     rotate([0, 90, 90]) {
         difference() {
             union() {
-                translate([-3.5, 0, 0]) {
-                    cube([7, 15.25, 2]);
+                translate([-6, 0, 0]) {
+                    cube([15.5, 15.25, 2]);
+                }
+                translate([0, -3.5, 0]) {
+                    cube([9.5, 3.5, 2]);
+                }
+                translate([3.5, 15.25, 0]) {
+                    cube([6, 10, 2]);
+                }
+                translate([-6, 15.25, 0]) {
+                    cube([3, 16.5, 2]);
                 }
                 cylinder(r=6, h=2, $fn=100);
             }
