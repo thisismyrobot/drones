@@ -2,108 +2,94 @@ wingThickness = 2;
 rxHeight = 6;
 
 // Print rotation
-rotate([0, 0, 0]) {
-    // Basic block
-    body();
+rotate([90, 0, 0]) {
+    difference() {
 
-    // Left wing
-    translate([0, 0, 10 - wingThickness - rxHeight]){
-        mirror([1, 0, 0]){
+        // Additive
+        union(){
+
+            // Basic block
+            body();
+
+            // Front plate
+            frontPlate();
+            
+            // Left wing
             leftWing();
-        }
-    }
 
-    // Right wing
-    translate([20, 0, 10 - wingThickness]){
-        rightWing();
-    }
-}
-
-
-module body() {
-    difference(){
-        // Outer shape
-        cube([20, 35, 10]);
-        
-        // Main cut-out
-        translate([2, 2, 2]){
-            cube([16, 35, 10]);
+            // Right wing
+            rightWing();
         }
-        
-        // Bolt holes
-        translate([10, 7, 0]){
-            cylinder(r=1.5, h=10, center=true, $fn=100);
-        }
-        translate([10, 28, 0]){
-            cylinder(r=1.5, h=10, center=true, $fn=100);
+
+        // Subtractive
+        union(){
+            
+            // Hollow out main cube
+            hollowCube();
+            
+            // Antenna holes
+            antennaHoles();
+            
+            // Controller holes
+            controllerHoles();
         }
     }   
 }
 
-module leftWing() {
-    translate([0, 0, 0]){
-        // Wing main
-        cube([28.75, 25, wingThickness]);
-       
-        // Antenna hole
-        translate([25.25, 0, rxHeight + wingThickness + 1.5]) {
-            rotate([0, -90, 0]) {
-                leftAntennaLoop();
+module body() {
+   // Outer shape
+   cube([20, 35, 10]);
+}
+
+module frontPlate() {
+    union() {
+        translate([-25.25, 0, 2]) {
+            cube([70.5, 2, 15.5]);
+        }
+        rotate([-90, 0, 0]) {
+            translate([-25.25, -11.5, 0]) {
+                cylinder(r=6, h=2, $fn=100);
             }
-        }        
+            translate([45.25, -11.5, 0]) {
+                cylinder(r=6, h=2, $fn=100);
+            }
+        }
+    }
+}
+
+module leftWing() {
+    translate([-25.25, 0, 10-wingThickness-rxHeight]) {
+        // Wing main
+        cube([25.25, 25, wingThickness]);   
     }
 }
 
 module rightWing() {
-    // Wing main
-    cube([20, 25, wingThickness]);
-    
-    // Antenna hole - 35.25 from centre
-    translate([25.25, 0, wingThickness + 1.5]) {
-        rightAntennaLoop();
+    translate([20, 0, 10-wingThickness]) {
+        // Wing main
+        cube([20, 25, wingThickness]);   
     }
 }
 
-module leftAntennaLoop() {
-    rotate([0, 90, 90]) {
-        difference() {
-            union() {
-                translate([-38.75, -6, 0]) {
-                    cube([38.75, 7.5, 2]);
-                }
-                translate([-38.75, 1.5, 0]) {
-                    cube([42.25, 6, 2]);
-                }
-                cylinder(r=6, h=2, $fn=100);
-            }
-            translate([0, 0, -1]) {
-                cylinder(r=3.5, h=10, $fn=100);
-            }
+module hollowCube() {
+    translate([2, 2, 2]){
+        cube([16, 35, 10]);
+    }
+}
+
+module antennaHoles() {
+    rotate([-90, 0, 0]) {
+        translate([-25.25, -11.5, -1]) {
+            cylinder(r=3.5, h=4, $fn=100);
+        }
+        translate([45.25, -11.5, -1]) {
+            cylinder(r=3.5, h=4, $fn=100);
         }
     }
 }
 
-module rightAntennaLoop() {
-    rotate([0, 90, 90]) {
-        difference() {
-            union() {
-                translate([-6, 0, 0]) {
-                    cube([15.5, 15.25, 2]);
-                }
-                translate([0, -3.5, 0]) {
-                    cube([9.5, 3.5, 2]);
-                }
-                translate([3.5, 15.25, 0]) {
-                    cube([6, 10, 2]);
-                }
-                translate([-6, 15.25, 0]) {
-                    cube([3, 16.5, 2]);
-                }
-                cylinder(r=6, h=2, $fn=100);
-            }
-            translate([0, 0, -1]) {
-                cylinder(r=3.5, h=10, $fn=100);
-            }
-        }
+module controllerHoles() {
+    translate([10, -1, 10]) {
+        cube([20, 4, 4]);
     }
 }
