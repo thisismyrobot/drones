@@ -90,6 +90,6 @@ module antennaHoles() {
 
 module controllerHoles() {
     translate([10, -1, 10]) {
-        cube([20, 4, 4]);
+        cube([16, 4, 4]);
     }
 }
