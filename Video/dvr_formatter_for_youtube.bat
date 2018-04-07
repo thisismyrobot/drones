@@ -14,7 +14,7 @@
 @echo off
 
 :: Settings
-set ffmpegLoc=c:\ffmpeg\ffmpeg.exe
+set ffmpegLoc=%~dp0ffmpeg.exe
 set text=thisismyrobot
 set audio=%~dp0Fallin-extended-mix.mp3
 set credits=%~dp0credits.png
