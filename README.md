@@ -3,15 +3,17 @@
 As well as a software-failsafe I added to Betaflight
 [3.1.7.](https://github.com/betaflight/betaflight/releases/tag/v3.1.7)
 
+Drones are ordered from most-recent downwards.
+
+## Beecore custom-built Whoop
+
+![Whoop](WhoopWhoop/pic_thumb.jpg?raw=true "Whoop")
+
 ## FliteTest Gremlin (TJ's frame)
 
 ![TjGremlin](TjGremlin/pic.png?raw=true "TjGremlin")
 
-## QX95
-
-![QX95](QX95/pic.png?raw=true "QX95")
-
-## 105mm custom
+## 105mm custom-built brushless
 
 ![105Custom](105Custom/pic.png?raw=true "105Custom")
 
@@ -23,6 +25,10 @@ A NERF-dart based frame for the QX95 parts while my replacement QX95 frame
 shipped itself to my house.
 
 [Build plans are here if you want to build your own](http://thisismyrobot.com/nerf).
+
+## QX95
+
+![QX95](QX95/pic.png?raw=true "QX95")
 
 ## Betaflight 3.1.7 software failsafe implementation
 
