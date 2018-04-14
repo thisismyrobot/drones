@@ -260,7 +260,7 @@ aux 16 0 0 900 900
 aux 17 0 0 900 900
 aux 18 0 0 900 900
 aux 19 0 0 900 900
-adjrange 0 0 0 900 900 0 0
+adjrange 0 0 0 900 2100 12 0
 adjrange 1 0 0 900 900 0 0
 adjrange 2 0 0 900 900 0 0
 adjrange 3 0 0 900 900 0 0
@@ -676,7 +676,7 @@ set rc_rate = 100
 set rc_rate_yaw = 100
 set rc_expo = 0
 set rc_expo_yaw = 0
-set thr_mid = 50
+set thr_mid = 100
 set thr_expo = 0
 set roll_srate = 70
 set pitch_srate = 70
@@ -689,8 +689,8 @@ set rc_rate = 100
 set rc_rate_yaw = 100
 set rc_expo = 0
 set rc_expo_yaw = 0
-set thr_mid = 50
-set thr_expo = 0
+set thr_mid = 100
+set thr_expo = 50
 set roll_srate = 70
 set pitch_srate = 70
 set yaw_srate = 70
@@ -702,8 +702,8 @@ set rc_rate = 100
 set rc_rate_yaw = 100
 set rc_expo = 0
 set rc_expo_yaw = 0
-set thr_mid = 50
-set thr_expo = 0
+set thr_mid = 100
+set thr_expo = 100
 set roll_srate = 70
 set pitch_srate = 70
 set yaw_srate = 70
