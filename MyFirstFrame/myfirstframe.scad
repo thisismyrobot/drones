@@ -1,5 +1,44 @@
-arm(60, 25, 15, 3);
+plate(120, 40, 3);
 
+translate([47.5, 20, 0]) {
+  arm(50, 25, 15, 3);
+}
+
+translate([-47.5, 20, 0]) {
+  arm(50, 25, 15, 3);
+}
+
+mirror([0, 1, 0]) {
+  translate([47.5, 20, 0]) {
+    arm(50, 25, 15, 3);
+  }
+
+  translate([-47.5, 20, 0]) {
+    arm(50, 25, 15, 3);
+  }
+}
+
+
+module plate(length, width, plate_thickness) {
+
+  ridge_width = 2;
+
+  translate([0, 0, (plate_thickness + ridge_width) / 2]) {
+    difference(){
+
+      cube([length, width, plate_thickness + ridge_width], center = true);
+
+      translate([0, 0, plate_thickness]) {
+          cube([
+            length-(ridge_width * 2),
+            width-(ridge_width * 2),
+            plate_thickness + 1
+          ], center = true);
+      }
+
+    }
+  }
+}
 
 module arm(length, width_start, width_end, plate_thickness) {
 
