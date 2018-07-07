@@ -1,7 +1,7 @@
 plate(120, 40, 3);
 
 translate([47.5, 20, 0]) {
-  arm(50, 25, 15, 3);
+  arm2(50, 25, 15, 3);
 }
 
 translate([-47.5, 20, 0]) {
@@ -38,6 +38,44 @@ module plate(length, width, plate_thickness) {
 
     }
   }
+}
+
+module arm2() {
+
+  length = 50;
+
+  translate([0, 0, 10]) {
+
+    hull() {
+
+      difference() {
+        translate([0, -10, 0]) {
+          sphere(r=1.5, $fn=20);
+        }
+        translate([-2, -12, -4]) {
+          cube([4, 4, 4]);
+        }
+      }
+
+      rotate(90, [-1, 0, 0]) {
+
+        translate([0, -10, 0]) {
+          cylinder(r=1.5, h=length, $fn=20);
+        }
+
+        translate([0, -4, 0]) {
+          cylinder(r=3, h=length, $fn=40);
+        }
+
+        translate([-1.5, -1, 0]) {
+          cube([3, 1, length]);
+        }
+      }
+    }
+  }
+
+
+
 }
 
 module arm(length, width_start, width_end, plate_thickness) {
