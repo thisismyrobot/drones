@@ -15,6 +15,7 @@ difference() {
 
 module additative() {
     plate();
+    snails();
 }
 
 module subtractive() {
@@ -25,7 +26,7 @@ module plate() {
     hull() {
 
         // Main chassis.
-        translate([-(20 - hole_wide)-(edge_radius / 2), -edge_radius, 0]) {
+        translate([((hole_wide - 20) / 2)-edge_radius, -edge_radius, 0]) {
             cube([20+(2*2.8), 10, thickness]);
         }
 
@@ -43,7 +44,7 @@ module plate() {
 
         // 20x20 stack
         offsetWide = (hole_wide - 20) / 2;
-        offsetLength = (hole_long - 20) / 2;
+        offsetLength = ((hole_long - 20) / 2) + 3;
 
         translate([offsetWide, offsetLength, 0]) {
             translate([20, 20, 0]) {
@@ -55,8 +56,36 @@ module plate() {
             }
         }
     }
+}
 
-    cube([20, 20, thickness]);
+module snails() {
+    translate([((hole_wide - 20) / 2)-edge_radius, -edge_radius, 0]) {
+        snail();
+    }
+
+    translate([19.55, -edge_radius, 0]) {
+        snail();
+    }
+}
+
+module snail() {
+    translate([2, -14, 12]) {
+        rotate([180, 90, 0]) {
+            arcPrism(12, 2);
+        }
+    }
+
+    translate([2, -12, 12]) {
+        rotate([90, 0, 270]) {
+            arcPrism(14, 2);
+        }
+    }
+
+    translate([0, -12, 2]) {
+        rotate([90, 0, 90]) {
+            arcPrism(24, 2);
+        }
+    }
 }
 
 module holes() {
@@ -94,7 +123,7 @@ module holes() {
 
         // 20x20 M3.
         offsetWide = (hole_wide - 20) / 2;
-        offsetLength = (hole_long - 20) / 2;
+        offsetLength = ((hole_long - 20) / 2) + 3;
 
         translate([offsetWide, offsetLength, 0]) {
 
@@ -111,6 +140,15 @@ module holes() {
             translate([0, 20, 0]) {
                 cylinder(r=1.5, h=thickness + 2, $fn=100);
             }
+        }
+    }
+}
+
+module arcPrism(radius, thickness) {
+    intersection() {
+        cylinder(r=radius, h=thickness, $fn=100);
+        translate([0, 0, -1]) {
+            cube([radius + 1, radius + 1, thickness + 2]);
         }
     }
 }
