@@ -26,8 +26,8 @@ module plate() {
     hull() {
 
         // Main chassis.
-        translate([((hole_wide - 20) / 2)-edge_radius, -edge_radius, 0]) {
-            cube([20+(2*2.8), 10, thickness]);
+        translate([-edge_radius, -edge_radius, 0]) {
+            cube([hole_wide+(2*2.8), 10, thickness]);
         }
 
         translate([hole_wide, hole_long, 0]) {
@@ -41,49 +41,62 @@ module plate() {
         translate([hole_wide / 2, hole_long + 3, 0]) {
             cylinder(r=edge_radius * 2.5, h=thickness, $fn=100);
         }
-
-        // 20x20 stack
-        offsetWide = (hole_wide - 20) / 2;
-        offsetLength = ((hole_long - 20) / 2) + 3;
-
-        translate([offsetWide, offsetLength, 0]) {
-            translate([20, 20, 0]) {
-                cylinder(r=edge_radius, h=thickness, $fn=100);
-            }
-
-            translate([0, 20, 0]) {
-                cylinder(r=edge_radius, h=thickness, $fn=100);
-            }
-        }
     }
 }
 
 module snails() {
-    translate([((hole_wide - 20) / 2)-edge_radius, -edge_radius, 0]) {
-        snail();
+
+    difference() {
+        snail_additative();
+        snail_subtractive();
     }
 
-    translate([19.55, -edge_radius, 0]) {
-        snail();
+}
+
+module snail_additative() {
+
+    snail_width = hole_wide + (edge_radius * 2);
+
+    translate([-edge_radius, -edge_radius, 0]) {
+
+        translate([0, -14, 12]) {
+            rotate([180, 90, 0]) {
+                mirror([0, 0, 1]) {
+                    arcPrism(12, snail_width);
+                }
+            }
+        }
+
+        translate([0, -12, 12]) {
+            rotate([90, 0, 270]) {
+                mirror([0, 0, 1]) {
+                    arcPrism(14, snail_width);
+                }
+            }
+        }
+
+        translate([0, -12, -44]) {
+            rotate([90, 0, 90]) {
+                arcPrism(70, snail_width);
+            }
+        }
     }
 }
 
-module snail() {
-    translate([2, -14, 12]) {
-        rotate([180, 90, 0]) {
-            arcPrism(12, 2);
-        }
-    }
+module snail_subtractive() {
 
-    translate([2, -12, 12]) {
-        rotate([90, 0, 270]) {
-            arcPrism(14, 2);
-        }
-    }
+    snail_width = hole_wide + (edge_radius * 2);
 
-    translate([0, -12, 2]) {
-        rotate([90, 0, 90]) {
-            arcPrism(24, 2);
+    translate([-edge_radius, -edge_radius, 0]) {
+
+        union() {
+            translate([2, -30, -1]) {
+                cube([snail_width - 4, 75, 40]);
+            }
+
+            translate([-1, -30, -50]) {
+                cube([snail_width + 2, 90, 50]);
+            }
         }
     }
 }
@@ -119,27 +132,6 @@ module holes() {
         // Camera wire
         translate([(hole_wide / 2) - 3.5, (hole_long / 2) - 2.5, 0]) {
             cube([7, 5, thickness + 2]);
-        }
-
-        // 20x20 M3.
-        offsetWide = (hole_wide - 20) / 2;
-        offsetLength = ((hole_long - 20) / 2) + 3;
-
-        translate([offsetWide, offsetLength, 0]) {
-
-            cylinder(r=1.5, h=thickness + 2, $fn=100);
-
-            translate([20, 0, 0]) {
-                cylinder(r=1.5, h=thickness + 2, $fn=100);
-            }
-
-            translate([20, 20, 0]) {
-                cylinder(r=1.5, h=thickness + 2, $fn=100);
-            }
-
-            translate([0, 20, 0]) {
-                cylinder(r=1.5, h=thickness + 2, $fn=100);
-            }
         }
     }
 }
