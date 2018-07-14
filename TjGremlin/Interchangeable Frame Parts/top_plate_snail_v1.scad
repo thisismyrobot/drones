@@ -13,6 +13,9 @@ difference() {
     subtractive();
 }
 
+// Not part of the result, but part of the drone.
+context();
+
 module additative() {
     plate();
     snails();
@@ -80,6 +83,10 @@ module snail_additative() {
                 arcPrism(70, snail_width);
             }
         }
+
+        translate([0, -14, 0]) {
+            cube([snail_width, 2, 12]);
+        }
     }
 }
 
@@ -89,13 +96,21 @@ module snail_subtractive() {
 
     translate([-edge_radius, -edge_radius, 0]) {
 
-        union() {
-            translate([2, -30, -1]) {
-                cube([snail_width - 4, 75, 40]);
-            }
+        translate([2, -30, -25]) {
+            cube([snail_width - 4, 75, 60]);
+        }
 
-            translate([-1, -30, -50]) {
-                cube([snail_width + 2, 90, 50]);
+        translate([-1, -12, -50]) {
+            cube([snail_width + 2, 95, 52]);
+        }
+
+        translate([-2, -15, -55]) {
+            cube([snail_width + 4, 4, 55]);
+        }
+
+        translate([-1, -12, -44]) {
+            rotate([90, 0, 90]) {
+                arcPrism(60, snail_width + 2);
             }
         }
     }
@@ -132,6 +147,26 @@ module holes() {
         // Camera wire
         translate([(hole_wide / 2) - 3.5, (hole_long / 2) - 2.5, 0]) {
             cube([7, 5, thickness + 2]);
+        }
+    }
+}
+
+module context() {
+    standoff = 20;
+
+    mirror([0, 0, 1]) {
+        cylinder(r=3, h=standoff, $fn=6);
+
+        translate([hole_wide, 0, 0]) {
+            cylinder(r=3, h=standoff, $fn=6);
+        }
+
+        translate([hole_wide, hole_long, 0]) {
+            cylinder(r=3, h=standoff, $fn=6);
+        }
+
+        translate([0, hole_long, 0]) {
+            cylinder(r=3, h=standoff, $fn=6);
         }
     }
 }
