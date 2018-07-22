@@ -81,19 +81,19 @@ module ringRemove(){
 
         // Holes.
         translate([edge_radius + thickness, (ring_depth / 2) + 1, -1]) {
-            cylinder(r=bolt_hole_radius, h=bolt_length+1.5, $fn=100);
+            cylinder(r=bolt_hole_radius, h=bolt_length+1.5, $fn=32);
 
             translate([hole_wide, 0, 0]) {
-                cylinder(r=bolt_hole_radius, h=bolt_length+1.5, $fn=100);
+                cylinder(r=bolt_hole_radius, h=bolt_length+1.5, $fn=32);
             }
         }
 
         translate([edge_radius + thickness, (ring_depth / 2) + 1, feet_top_down + nut_height + thickness + 1]) {
             mirror([0, 0, 1]) {
-                cylinder(r=bolt_hole_radius, h=bolt_length+1.5, $fn=100);
+                cylinder(r=bolt_hole_radius, h=bolt_length+1.5, $fn=32);
 
                 translate([hole_wide, 0, 0]) {
-                    cylinder(r=bolt_hole_radius, h=bolt_length+1.5, $fn=100);
+                    cylinder(r=bolt_hole_radius, h=bolt_length+1.5, $fn=32);
                 }
             }
         }
@@ -117,7 +117,7 @@ module ringRemove(){
     // Cam pivot
     translate([0, ring_depth/2, pivot_top_down]) {
         rotate([0, 90, 0]) {
-            cylinder(r=0.75, h=ring_width, $fn=100);
+            cylinder(r=0.75, h=ring_width, $fn=16);
         }
     }
 
