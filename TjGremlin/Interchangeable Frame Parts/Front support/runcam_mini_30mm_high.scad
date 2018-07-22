@@ -88,7 +88,7 @@ module ringRemove(){
             }
         }
 
-        translate([edge_radius + thickness, (ring_depth / 2) + 1, feet_top_down + nut_height + thickness + 1]) {
+        translate([edge_radius + thickness, (ring_depth / 2) + 1, feet_top_down + nut_height + (thickness * 2) + 1]) {
             mirror([0, 0, 1]) {
                 cylinder(r=bolt_hole_radius, h=bolt_length+1.5, $fn=32);
 
