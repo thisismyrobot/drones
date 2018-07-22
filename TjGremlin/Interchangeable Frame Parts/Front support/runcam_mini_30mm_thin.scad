@@ -46,49 +46,61 @@ module ring() {
 
         // cutouts.
         translate([0, -1, 0]) {
-            union() {
 
-                // frame top.
-                translate([thickness, 0, frame_top_down]) {
-                    cube([frame_width, ring_depth + 2, thickness + nut_height]);
-                }
+            // frame top.
+            translate([thickness, 0, frame_top_down]) {
+                cube([frame_width, ring_depth + 2, thickness + nut_height]);
+            }
 
-                // Cam
-                translate([((ring_width - cam_width) / 2), 0, cam_top_down - 1]){
-                    cube([cam_width, ring_depth + 2, cam_height + 2]);
-                }
+            // Cam
+            translate([((ring_width - cam_width) / 2), 0, cam_top_down - 1]){
+                cube([cam_width, ring_depth + 2, cam_height + 2]);
+            }
 
-                // Props
-                translate([-1, 0, prop_top_down]) {
-                    cube([thickness + 1, ring_depth + 2, cam_height - thickness*2]);
-                }
+            // Props
+            translate([-1, 0, prop_top_down]) {
+                cube([thickness + 1, ring_depth + 2, cam_height - thickness*2]);
+            }
 
-                translate([ring_width-thickness, 0, prop_top_down]) {
-                    cube([thickness + 1, ring_depth + 2, cam_height - thickness*2]);
-                }
+            translate([ring_width-thickness, 0, prop_top_down]) {
+                cube([thickness + 1, ring_depth + 2, cam_height - thickness*2]);
+            }
 
-                // Feet.
-                translate([thickness, 0, feet_top_down]) {
-                    cube([frame_width, ring_depth + 2, nut_height]);
-                }
+            // Feet.
+            translate([thickness, 0, feet_top_down]) {
+                cube([frame_width, ring_depth + 2, nut_height]);
+            }
 
-                // Holes.
-                translate([edge_radius + thickness, (ring_depth / 2) + 1, -1]) {
+            // Holes.
+            translate([edge_radius + thickness, (ring_depth / 2) + 1, -1]) {
+                cylinder(r=bolt_hole_radius, h=thickness+2, $fn=100);
+
+                translate([hole_wide, 0, 0]) {
                     cylinder(r=bolt_hole_radius, h=thickness+2, $fn=100);
-
-                    translate([hole_wide, 0, 0]) {
-                        cylinder(r=bolt_hole_radius, h=thickness+2, $fn=100);
-                    }
                 }
+            }
 
-                translate([edge_radius + thickness, (ring_depth / 2) + 1, feet_top_down + thickness - 1]) {
+            translate([edge_radius + thickness, (ring_depth / 2) + 1, feet_top_down + thickness - 1]) {
+                cylinder(r=bolt_hole_radius, h=thickness+2, $fn=100);
+
+                translate([hole_wide, 0, 0]) {
                     cylinder(r=bolt_hole_radius, h=thickness+2, $fn=100);
-
-                    translate([hole_wide, 0, 0]) {
-                        cylinder(r=bolt_hole_radius, h=thickness+2, $fn=100);
-                    }
                 }
+            }
+        }
 
+        // Prop clearance chamfers
+        translate([-1, ring_depth, prop_top_down]) {
+            rotate([0, 0, -45]) {
+                cube([thickness + 1, thickness + 1, cam_height - thickness*2]);
+            }
+        }
+
+        mirror([1, 0, 0]) {
+            translate([-ring_width - 1, ring_depth, prop_top_down]) {
+                rotate([0, 0, -45]) {
+                    cube([thickness + 1, thickness + 1, cam_height - thickness*2]);
+                }
             }
         }
     }
