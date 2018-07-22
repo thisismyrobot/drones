@@ -1,3 +1,16 @@
+/*
+
+    Designed to fit a Runcam Mini in place of the front supports.
+
+    The big-stepped end is the top, the existing top-plate sits *inside* that.
+
+    The small-stepped end is the bottom, and sits *on* the bottom plate.
+
+    The steps are big enough to fit M3 x 2.5mm nuts. You'll have to drill your
+    own holes in the side for the camera itself.
+
+*/
+
 // Settings.
 edge_radius = 2.8;
 hole_wide = 17.5;
