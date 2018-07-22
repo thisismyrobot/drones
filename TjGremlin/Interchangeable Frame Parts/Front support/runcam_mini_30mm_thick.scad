@@ -101,4 +101,11 @@ module ringRemove(){
         }
     }
 
+    mirror([1, 0, 0]) {
+        translate([-ring_width - 1, ring_depth, prop_top_down]) {
+            rotate([0, 0, -45]) {
+                cube([thickness + 1, thickness + 1, cam_height - thickness*2]);
+            }
+        }
+    }
 }
