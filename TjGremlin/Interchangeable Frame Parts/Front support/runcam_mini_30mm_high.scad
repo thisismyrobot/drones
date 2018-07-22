@@ -6,8 +6,8 @@
 
     The small-stepped end is the bottom, and sits *on* the bottom plate.
 
-    The steps are big enough to fit M3 x 2.5mm nuts. You'll have to drill your
-    own holes in the side for the camera itself.
+    The steps are big enough to fit M3 x 2.5mm nuts. The bolts should be M3
+    12mm nylon.
 
 */
 
@@ -18,6 +18,7 @@ thickness = 2;
 bolt_hole_radius = 1.5;
 cam_above = 11;
 cam_below = 12;
+bolt_length = 12;
 nut_height = 2.5;
 cam_width = 19;
 ring_depth = 6;
@@ -31,6 +32,8 @@ frame_top_down = thickness;
 cam_top_down = frame_top_down + thickness + nut_height;
 prop_top_down = cam_top_down + thickness;
 feet_top_down = cam_top_down + cam_height;
+pivot_top_down = cam_top_down + cam_above;
+
 
 // Make it!
 rotate([90, 0, 0]) {
@@ -78,18 +81,20 @@ module ringRemove(){
 
         // Holes.
         translate([edge_radius + thickness, (ring_depth / 2) + 1, -1]) {
-            cylinder(r=bolt_hole_radius, h=thickness+2, $fn=100);
+            cylinder(r=bolt_hole_radius, h=bolt_length+1.5, $fn=100);
 
             translate([hole_wide, 0, 0]) {
-                cylinder(r=bolt_hole_radius, h=thickness+2, $fn=100);
+                cylinder(r=bolt_hole_radius, h=bolt_length+1.5, $fn=100);
             }
         }
 
-        translate([edge_radius + thickness, (ring_depth / 2) + 1, feet_top_down + thickness - 1]) {
-            cylinder(r=bolt_hole_radius, h=thickness+2, $fn=100);
+        translate([edge_radius + thickness, (ring_depth / 2) + 1, feet_top_down + nut_height + thickness + 1]) {
+            mirror([0, 0, 1]) {
+                cylinder(r=bolt_hole_radius, h=bolt_length+1.5, $fn=100);
 
-            translate([hole_wide, 0, 0]) {
-                cylinder(r=bolt_hole_radius, h=thickness+2, $fn=100);
+                translate([hole_wide, 0, 0]) {
+                    cylinder(r=bolt_hole_radius, h=bolt_length+1.5, $fn=100);
+                }
             }
         }
     }
@@ -108,4 +113,12 @@ module ringRemove(){
             }
         }
     }
+
+    // Cam pivot
+    translate([0, ring_depth/2, pivot_top_down]) {
+        rotate([0, 90, 0]) {
+            cylinder(r=0.75, h=ring_width, $fn=100);
+        }
+    }
+
 }
