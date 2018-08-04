@@ -16,10 +16,9 @@ edge_radius = 2.8;
 hole_wide = 17.5;
 thickness = 2;
 bolt_hole_radius = 1.5;
-cam_above = 11;
-cam_below = 12;
-bolt_length = 12;
-nut_height = 2.5;
+cam_above = 10.5;
+cam_below = 11.5;
+nut_height = 3;
 cam_width = 19;
 ring_depth = 6;
 
@@ -81,19 +80,19 @@ module ringRemove(){
 
         // Holes.
         translate([edge_radius + thickness, (ring_depth / 2) + 1, -1]) {
-            cylinder(r=bolt_hole_radius, h=bolt_length+1.5, $fn=32);
+            cylinder(r=bolt_hole_radius, h=thickness+2, $fn=32);
 
             translate([hole_wide, 0, 0]) {
-                cylinder(r=bolt_hole_radius, h=bolt_length+1.5, $fn=32);
+                cylinder(r=bolt_hole_radius, h=thickness+2, $fn=32);
             }
         }
 
-        translate([edge_radius + thickness, (ring_depth / 2) + 1, feet_top_down + nut_height + (thickness * 2) + 1]) {
+        translate([edge_radius + thickness, (ring_depth / 2) + 1, feet_top_down + (nut_height + thickness) + 1]) {
             mirror([0, 0, 1]) {
-                cylinder(r=bolt_hole_radius, h=bolt_length+1.5, $fn=32);
+                cylinder(r=bolt_hole_radius, h=thickness+2, $fn=32);
 
                 translate([hole_wide, 0, 0]) {
-                    cylinder(r=bolt_hole_radius, h=bolt_length+1.5, $fn=32);
+                    cylinder(r=bolt_hole_radius, h=thickness+2, $fn=32);
                 }
             }
         }
