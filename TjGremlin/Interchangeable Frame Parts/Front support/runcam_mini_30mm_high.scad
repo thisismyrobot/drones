@@ -113,6 +113,21 @@ module ringRemove(){
         }
     }
 
+    // ESC clearance chamfers
+    translate([-thickness - 0.5, -0.1, feet_top_down - thickness - 1]) {
+        rotate([0, 0, -45]) {
+            cube([thickness + 1, thickness + 1, cam_height - thickness*2]);
+        }
+    }
+
+    mirror([1, 0, 0]) {
+        translate([-ring_width - thickness - 0.5, - 0.1, feet_top_down - thickness - 1]) {
+            rotate([0, 0, -45]) {
+                cube([thickness + 1, thickness + 1, cam_height - thickness*2]);
+            }
+        }
+    }
+
     // Cam pivot
     translate([0, ring_depth/2, pivot_top_down]) {
         rotate([0, 90, 0]) {
