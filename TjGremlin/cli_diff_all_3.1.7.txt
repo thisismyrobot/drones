@@ -30,7 +30,7 @@ aux 2 4 0 1200 2100
 aux 3 1 0 900 1150
 adjrange 0 0 0 900 2100 12 0
 set min_throttle = 1040
-set serialrx_provider = SBUS
+set serialrx_provider = IBUS
 set vbat_scale = 109
 set vbat_min_cell_voltage = 32
 set vbat_warning_cell_voltage = 33
