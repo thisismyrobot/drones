@@ -60,17 +60,16 @@ module plateRemove() {
         }
 
         // Antenna mounts
-        translate([(hole_wide / 2) + 2.75, hole_long + 6, 0]) {
+        translate([(hole_wide / 2) + 4.5, hole_long + 4, 0]) {
             cylinder(r=1.5, h=thickness + 2, $fn=100);
         }
 
-        translate([(hole_wide / 2) - 2.75, hole_long + 6, 0]) {
+        translate([(hole_wide / 2) - 4.5, hole_long + 4, 0]) {
             cylinder(r=1.5, h=thickness + 2, $fn=100);
         }
 
-        // Camera wire
-        translate([(hole_wide / 2) - 3.5, (hole_long / 2)-7.5, 0]) {
-            cube([7, 5, thickness + 2]);
+        translate([(hole_wide / 2), hole_long + 6.75, 0]) {
+            cylinder(r=1.5, h=thickness + 2, $fn=100);
         }
     }
 }
