@@ -52,10 +52,10 @@
 //#define BETAFLIGHT                // Uncomment this if you are using BETAFLIGHT (same as CLEANFLIGHT t time of this MWOSD release)
 //#define HARIKIRI                  // Uncomment this if you are using HARIKIRI (for BOXNAMES compatibility)
 //#define NAZA                      // Uncomment this if you are using NAZA flight controller
-//#define GPSOSD_UBLOX              // Uncomment this if you are using a UBLOX GPS module for a GPS based OSD
+#define GPSOSD_UBLOX              // Uncomment this if you are using a UBLOX GPS module for a GPS based OSD
 //#define GPSOSD_NMEA               // Uncomment this if you are using a NMEA compatible GPS module for a GPS based OSD
 //#define GPSOSD_MTK                // Uncomment this if you are using a MTK module for a GPS based OSD
-#define NOCONTROLLER              // Uncomment this if you ahave nothing connected to the serial port - no controller or GPS module
+//#define NOCONTROLLER              // Uncomment this if you ahave nothing connected to the serial port - no controller or GPS module
 // old releases supported...
 //#define MULTIWII_V23              // Uncomment this if you are using MW versions 2.2/2.3  
 //#define MULTIWII_V21              // Uncomment this if you are using MW versions 2.0/2.1  (for BOXNAMES compatibility)
