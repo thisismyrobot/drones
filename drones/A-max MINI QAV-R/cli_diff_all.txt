@@ -4,12 +4,14 @@ defaults nosave
 mcu_id 003700315633570320313233
 
 feature -RX_PPM
+feature -TRANSPONDER
 feature -AIRMODE
 feature RX_SERIAL
 feature MOTOR_STOP
 serial 2 64 115200 57600 0 115200
 aux 0 0 0 1800 2100 0 0
 aux 1 1 1 900 1400 0 0
+adjrange 0 0 1 1400 1800 12 1 0 0
 set serialrx_provider = IBUS
 set align_board_roll = 1
 set align_board_pitch = -5
@@ -24,8 +26,12 @@ rateprofile 0
 
 rateprofile 1
 
+set roll_expo = 50
+set pitch_expo = 50
 rateprofile 2
 
+set roll_expo = 25
+set pitch_expo = 25
 rateprofile 3
 
 rateprofile 4
