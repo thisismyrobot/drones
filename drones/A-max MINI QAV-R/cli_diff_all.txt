@@ -1,20 +1,20 @@
-# Betaflight / SPRACINGF3EVO (SPEV) 4.0.6 Sep  1 2019 / 01:06:10 (2a64051a2) MSP API: 1.41 / FEATURE CUT LEVEL 8
-batch start
-defaults nosave
+# Betaflight / SPRACINGF3EVO (SPEV) 3.5.7 Mar 15 2019 / 22:21:44 (e9130527c) MSP API: 1.40
+
 mcu_id 003700315633570320313233
+defaults nosave
 
 feature -RX_PPM
+feature -TELEMETRY
 feature -TRANSPONDER
-feature -AIRMODE
 feature RX_SERIAL
 feature MOTOR_STOP
+feature LED_STRIP
 serial 2 64 115200 57600 0 115200
+led 0 5,11::CW:0
 aux 0 0 0 1800 2100 0 0
 aux 1 1 1 900 1400 0 0
 adjrange 0 0 1 1400 1800 12 1 0 0
 set serialrx_provider = IBUS
-set align_board_roll = 1
-set align_board_pitch = -5
 profile 0
 
 profile 1
